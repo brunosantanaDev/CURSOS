@@ -1,0 +1,22 @@
+:root {
+  font-size: 25px;
+}
+
+.titulo {
+  font-size: 3rem;
+}
+
+.curso:nth-child(2) h1::after {
+  content: "|";
+  animation: teste ease infinite;
+}
+
+@keyframes teste {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

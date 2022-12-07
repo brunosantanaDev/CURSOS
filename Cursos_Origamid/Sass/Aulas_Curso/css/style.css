@@ -1,0 +1,77 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.modal h1 {
+  color: blue;
+  font-family: monospace;
+  font-size: 4.2rem;
+  font-weight: bold;
+  font-family: monospace;
+  line-height: 1;
+}
+.modal h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: rgb(17, 0, 255);
+}
+@media (max-width: 600px) {
+  .modal h1 {
+    font-size: 2rem;
+  }
+}
+.modal p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  max-width: 400px;
+}
+.modal a {
+  display: block;
+  max-width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 1.6rem;
+}
+
+ul {
+  text-align: center;
+  font-size: 1.6rem;
+}
+ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 3.125rem;
+}
+ul a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  background: blue;
+  color: white;
+}
+ul a:hover {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

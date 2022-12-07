@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.estilo{
+    background: cornflowerblue;
+}
+
+.demo{
+    height:auto;
+}
+
+.imagem {
+    opacity:0.5;
+}
+.demo ul li{
+    display: inline-block;
+}
+.demo ul li a{
+    display: inline-block;
+    padding:10px;
+}
+
+.demo ul li .barra{
+    width:0%;
+    height:5px;
+    transition: all linear .5s;
+}
+
+.demo ul li:hover .barra{
+    width:100%;
+    background-color:darkolivegreen;
+    height:5px;
+}

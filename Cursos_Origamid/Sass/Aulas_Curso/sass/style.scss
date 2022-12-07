@@ -1,0 +1,109 @@
+$cor-primaria: blue; 
+
+:root{
+	font-size: 62.5%;
+}
+
+body{
+	background: rgb(0, 0, 0);
+	color:#fff;
+}
+
+@function em($pixel, $contexto: 16){
+	@return ($pixel/$contexto) * 1rem;
+}
+
+@function grid($colunas,$total: 12){
+	@return ($colunas/$total) * 100%;
+}
+
+@mixin title-large{
+	font-size: 4.2rem;
+	font-weight: bold;
+	font-family: monospace;
+	line-height: 1;
+}
+
+@mixin border-box{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+@mixin separador($color){
+	&::after{
+		content:"";
+		display: block;
+		width: 100px;
+		height: 4px;
+		background: $color;
+	}
+}
+
+
+@mixin mobile{
+	@media (max-width:600px){
+		@content;
+	}
+}
+
+section {
+	max-width: 600px;
+	margin: 0 auto;
+	@include border-box;
+}
+
+.modal{
+	h1 {
+		color: $cor-primaria;
+		font-family: monospace;
+		@include title-large;
+		@include separador(rgb(17, 0, 255));
+		@include mobile{			
+			font-size: 2rem;		
+		}
+	}
+
+	p {
+		font-size: 1.6rem;
+		line-height: 1.4;
+		max-width: 400px;
+	}
+
+	a {
+		display: block;
+		max-width: 120px;
+		padding: 10px;
+		border-radius: 4px;
+		text-align: center;
+		background: $cor-primaria;
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: monospace;
+		font-size: 1.6rem;
+	}
+}
+
+ul {
+	text-align: center;
+		font-size: 1.6rem;
+
+	li{
+		display: inline-block;
+		list-style: none;
+font-size: em(50);
+	}
+	a {
+		display: block;
+		padding: 20px;
+		text-decoration: none;
+		background: blue;
+		color: white;
+		&:hover{
+			background-color: red;
+		}
+	}
+}
+
+

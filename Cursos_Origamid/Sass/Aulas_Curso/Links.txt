@@ -1,0 +1,38 @@
+Curso: https://www.youtube.com/watch?v=Wo5t3uUV8n4
+
+Arquivos: https://github.com/matheusbattisti/curso_sass/tree/main/11_galleria
+
+
+
+
+INSTALAÇÃO SASS:
+
+1º - Instalar o Sass, baixe o Node.js, verifique se esta funcionado abrindo o CMD e digite
+  node -v ou npm -v 
+irá aparecer a versão do Node
+
+2º - No vscode abra o terminal clicando com o botão direito na pasta do Projeto e clique em... 
+Open In Integrated Terminal
+
+3º - Digite: npm install -g sass 
+
+4º - Aguarde a instalação de modo global.
+
+5º - Assim que terminar a instalação digite: sass --version
+
+
+6º - Gerar compilar o pré-processamento digite: 
+sass --watch sass/style.scss:css/style.css
+
+de enter, obs: sass e css é o nome da pasta onde o arquivo scss esta e css onde sera gerado um arquivo css  
+
+
+
+
+
+
+
+
+Exeutar Script Powershell
+https://paulosantanna.com/2012/10/14/habilitando-a-execucao-de-scripts-powershell/
+

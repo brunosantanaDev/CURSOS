@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<style type="text/css" rel="stylesheet">
+
+.balao{
+    background-color: crimson;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    padding:20px;
+}
+
+.balao::after{
+    content:'';
+    display: block;
+    position: absolute;
+    margin-top:20px;
+
+    border:8px solid;
+    border-color:crimson transparent transparent transparent;
+}
+
+.tabela{
+    width: 100%;
+    max-width:900px;
+    display: table;
+    border:0px solid #000;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tabela .info{
+    display: table-row;
+
+}
+
+.info:nth-child(2n+1){
+    background-color: #999;
+}
+
+
+.tabela .info div{
+    display: table-cell;
+    border:5px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    padding:5px 0;
+}
+
+.toptable div {
+    background-color: tomato;
+    text-align: center;
+    height: 50px;
+}
+
+.botao{
+    margin: 0 auto;
+    display: block;
+    width:150px;
+    text-align: center;
+    color:#fff;
+    background-image: linear-gradient(rgb(52, 144, 219),rgb(9, 89, 155));
+    box-shadow: 0px 1px 5px 0px #000;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.botao:hover{
+    background-image: linear-gradient(rgb(52, 144, 219),rgb(15, 118, 202));
+}
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 900px;
+    border:0px solid #f00;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.container div {
+    background-color: darksalmon;
+}
+
+.nav1{
+    grid-column: 1/4;
+    grid-row:1/2;
+}
+
+.nav2{
+    grid-column: 1/3;
+    grid-row:2/2;
+    background-color: deeppink !important;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="nav1">1</div>
+    <div class="nav2">2</div>
+    <div class="nav3">3</div>
+    <div class="nav4">4</div>
+    <div class="nav5">5</div>
+    <div class="nav6">6</div>
+    <div class="nav7">7</div>
+    <div class="nav8">8</div>
+    <div class="nav9">9</div>
+    <div class="nav10">10</div>
+
+</div>
+    
+    <!--
+
+    <div class="balao">
+        Olá, tudo bem
+    </div><br><br>
+
+
+    <div class="tabela">
+        <div class="info toptable">
+            <div>Nome</div>
+            <div>Sobrenome</div>
+            <div>Telefone</div>
+            <div>Cep</div>
+            <div>CPF</div>
+            <div>RG</div>
+        </div>
+
+        <div class="info">
+            <div>Nome</div>
+            <div>Sobrenome</div>
+            <div>Telefone</div>
+            <div>Cep</div>
+            <div>CPF</div>
+            <div>RG</div>
+        </div>
+
+        <div class="info">
+            <div>Nome</div>
+            <div>Sobrenome</div>
+            <div>Telefone</div>
+            <div>Cep</div>
+            <div>CPF</div>
+            <div>RG</div>
+        </div>
+
+        <div class="info">
+            <div>Nome</div>
+            <div>Sobrenome</div>
+            <div>Telefone</div>
+            <div>Cep</div>
+            <div>CPF</div>
+            <div>RG</div>
+        </div>
+
+        <div class="info">
+            <div>Nome</div>
+            <div>Sobrenome</div>
+            <div>Telefone</div>
+            <div>Cep</div>
+            <div>CPF</div>
+            <div>RG</div>
+        </div>
+
+        <div class="info">
+            <div>Nome</div>
+            <div>Sobrenome</div>
+            <div>Telefone</div>
+            <div>Cep</div>
+            <div>CPF</div>
+            <div>RG</div>
+        </div>
+
+        <div class="info">
+            <div>Nome</div>
+            <div>Sobrenome</div>
+            <div>Telefone</div>
+            <div>Cep</div>
+            <div>CPF</div>
+            <div>RG</div>
+        </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <a href="#" class="botao">Clique Aqui</a>
+
+    <a href="#" class="btn">Clique Aqui BTN</a>
+
+
+
+<script>
+let dqs = (el) => document.querySelector(el);
+dqs('.btn').addEventListener('click', function(e){
+  console.log(this);
+  console.log(e.target);
+  console.log(e.currentTarget);
+})
+</script>
+-->
+
+<body>
+</html>
