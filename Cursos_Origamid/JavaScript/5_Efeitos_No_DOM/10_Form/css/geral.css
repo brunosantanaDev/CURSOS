@@ -1,0 +1,64 @@
+body,
+h1,
+h2,
+ul,
+li,
+p,
+dd,
+dt,
+dl {
+  margin: 0px;
+  padding: 0px;
+}
+
+label{
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.display{
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: 30px auto 0 auto;
+  border: 1px solid rgb(166, 166, 166);
+  padding: 10px;
+}
+
+input[type=text],input[type=email], textarea{
+  width: 100%;
+  box-sizing: border-box;
+  padding: .5rem;
+  border: 2px solid #222;
+  font-size: 1rem;
+  margin-top: .5rem;
+}
+
+input[type=email].ativo{
+  border-color: rgb(255, 0, 0);
+}
+
+.erro{
+  height: 0;
+  transition: all .5s;
+  overflow: hidden;
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(165, 17, 17);
+  color: #fff;
+}
+
+.erro.ativo{
+  height: 20px;
+  padding: 5px;
+}
+
+ textarea{
+  height: 150px;
+ }
