@@ -18,7 +18,7 @@ $numero: 1;
 }
 
 @for $i from 1 through 16{
-   $width: floor($i / 16 * 100 + percentage($number: 0));
+   $width: floor($i / 16 * 100 + "%");
    .porcento-#{$i}{
       width: $width;
    }
