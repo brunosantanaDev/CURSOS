@@ -17,7 +17,7 @@ function loadingPosts(json){
    elPost.innerHTML = "";
   
     for(i of json){
-      const post = `<h2>${i.title}</h2> <div>${i.body}</div>`;
+      const post = `<h2>${i.title}</h2> <div>${i.body}</div><hr>`;
       const div = document.createElement("div")
       div.innerHTML = post;
       elPost.append(div)
