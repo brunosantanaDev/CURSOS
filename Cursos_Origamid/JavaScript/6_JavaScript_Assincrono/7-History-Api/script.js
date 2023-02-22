@@ -1,5 +1,4 @@
 
-
 function handleClick(event){
   event.preventDefault()
   fetchPage(event.target.href)
@@ -8,12 +7,19 @@ function handleClick(event){
 async function fetchPage(url){
   const pageResponse = await fetch(url)
   const pageJson = await pageResponse.text()
-  
+   replaceContent(pageJson)
 }
 
+function replaceContent(newText){
+  const newHtml = document.createElement("div")
+  newHtml.innerHTML = newText
 
-window.history.pushState(null, null, "sobre.html")
+  const odlContent = documen.querySelector(".content")
+  const newContent = newHtml.querySelector(".content")
+  odlContent.innerHTML = newContent.innerHTML
+}
 
-window.addEventListener("popstate", () => {
-  console.log("teste")
+const links = Array.from(document.querySelectorAll("a"))
+links.forEach((link) => {
+  link.addEventListener("click", handleClick)
 })
