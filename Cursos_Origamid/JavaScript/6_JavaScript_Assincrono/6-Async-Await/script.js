@@ -1,7 +1,9 @@
-async function dados(){
-  const respostaDados = await fetch("./dados.json");
-  const dadosCliente = await (await respostaDados).json()
-  console.log(dadosCliente)
+async function puxarDados(){
+    const responseDados = await fetch("./dados.json")
+    const dadosJson = await responseDados.json()
+    console.log(dadosJson)
 }
 
- dados()
+puxarDados()
+
+
