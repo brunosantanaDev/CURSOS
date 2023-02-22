@@ -14,9 +14,9 @@ function replaceContent(newText){
   const newHtml = document.createElement("div")
   newHtml.innerHTML = newText
 
-  const odlContent = documen.querySelector(".content")
+  const oldContent = document.querySelector(".content")
   const newContent = newHtml.querySelector(".content")
-  odlContent.innerHTML = newContent.innerHTML
+  oldContent.innerHTML = newContent.innerHTML
 }
 
 const links = Array.from(document.querySelectorAll("a"))
