@@ -1,3 +1,4 @@
+const links = Array.from(document.querySelectorAll("a"))
 
 function handleClick(event){
   event.preventDefault()
@@ -5,9 +6,11 @@ function handleClick(event){
 }
 
 async function fetchPage(url){
+  document.querySelector(".content").innerHTML = "Carregando..."
   const pageResponse = await fetch(url)
   const pageJson = await pageResponse.text()
-   replaceContent(pageJson)
+  replaceContent(pageJson)
+  window.history.pushState(null,null,url)
 }
 
 function replaceContent(newText){
@@ -17,9 +20,19 @@ function replaceContent(newText){
   const oldContent = document.querySelector(".content")
   const newContent = newHtml.querySelector(".content")
   oldContent.innerHTML = newContent.innerHTML
+  document.title = newHtml.querySelector("title").innerText
 }
 
-const links = Array.from(document.querySelectorAll("a"))
+window.addEventListener("popstate", () => {
+ fetchPage(window.location.href)
+})
+
 links.forEach((link) => {
   link.addEventListener("click", handleClick)
 })
+
+
+
+
+
+
