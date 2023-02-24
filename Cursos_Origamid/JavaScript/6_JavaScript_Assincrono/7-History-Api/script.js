@@ -1,16 +1,21 @@
 const links = Array.from(document.querySelectorAll("a"))
 
+links.forEach((link) => {
+  link.addEventListener("click", handleClick)
+})
+
 function handleClick(event){
   event.preventDefault()
-  fetchPage(event.target.href)
+  const url = event.target.href
+  fetchPage(url)
 }
 
 async function fetchPage(url){
   document.querySelector(".content").innerHTML = "Carregando..."
   const pageResponse = await fetch(url)
-  const pageJson = await pageResponse.text()
-  replaceContent(pageJson)
+  const pageText = await pageResponse.text()
   window.history.pushState(null,null,url)
+  replaceContent(pageText)
 }
 
 function replaceContent(newText){
@@ -25,11 +30,10 @@ function replaceContent(newText){
 
 window.addEventListener("popstate", () => {
  fetchPage(window.location.href)
+console.log(this)
 })
 
-links.forEach((link) => {
-  link.addEventListener("click", handleClick)
-})
+
 
 
 
