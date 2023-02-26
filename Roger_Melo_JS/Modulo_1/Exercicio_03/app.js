@@ -57,33 +57,11 @@ mas sem digitar os nomes das comidas diretamente;
 - Exiba a foodsInfo no console.
 */
 
-
-const totalItem = 0
-let item1 = ""
-let item2 = ""
-let item3 = ""
-
-for(let i=0; i < brazilianFoods.length; i++){
-  switch(brazilianFoods[i]){
-    case "Coxinha":
-      item1 = "Coxinha"
-      break
-
-    case "Pão de Queijo":
-      item2 = "Pão de Queijo"
-      break
-
-    case "Brigadeiro":
-      item3 = "Brigadeiro"
-      break
-  }
-}
-
 const foodsInfo = `
-Até aqui, o array "brazilianFoods" possui ${brazilianFoods.length} itens: ${item1}, ${item2} e ${item3}.
+Até aqui, o array "brazilianFoods" possui ${brazilianFoods.length} itens: ${brazilianFoods[0]}, ${brazilianFoods[1]} e ${brazilianFoods[2]}.
 `
 
-console.log(foodsInfo)
+//console.log(foodsInfo)
 
 
 /*
@@ -98,7 +76,10 @@ itens "Lilica" e "Matilda";
 - Exiba a "dogNames" no console.
 */
 
-
+const maleDogNames = ["Chico","Zeca"]
+const femaleDogNames = ["Lilica", "Matilda"]
+let dogNames = maleDogNames.concat(femaleDogNames)
+//console.log(dogNames)
 
 /*
 07 - Comente o console.log acima e:
@@ -109,6 +90,8 @@ itens "Lilica" e "Matilda";
 - O resultado deve ser: "nome1, nome2, nome3, nome4".
 */
 
+const stringDog = dogNames.join(", ")
+//console.log(stringDog)
 
 
 /*
@@ -124,6 +107,9 @@ utilizando o método adequado para isso;
 agora é "Lilica".
 */
 
+const ultmitoItem = dogNames.pop()
+//console.log(dogNames[dogNames.length -1])
+
 
 
 /*
@@ -137,9 +123,16 @@ apenas as letras iniciais dos nomes do array "dogNames";
 - Não digite as letras diretamente;
 - Exiba a "initials" no console.
 */
+dogNames.push("Nina")
+let leterString = ""
 
+for(let i=0; i < dogNames.length; i++){
+  leterString += dogNames[i].slice(0,1)
+}
 
+const initials = `${leterString}`;
 
+console.log(initials)
 /*
 10 - Comente o console.log acima e:
 
