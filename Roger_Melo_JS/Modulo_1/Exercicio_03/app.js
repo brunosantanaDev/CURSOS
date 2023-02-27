@@ -108,7 +108,7 @@ agora é "Lilica".
 */
 
 const ultmitoItem = dogNames.pop()
-//console.log(dogNames[dogNames.length -1])
+console.log(dogNames[dogNames.length -1])
 
 
 
@@ -123,16 +123,11 @@ apenas as letras iniciais dos nomes do array "dogNames";
 - Não digite as letras diretamente;
 - Exiba a "initials" no console.
 */
+
 dogNames.push("Nina")
-let leterString = ""
+const initials = `${dogNames[0][0]}${dogNames[1][0]}${dogNames[2][0]}${dogNames[3][0]}`
+//console.log(initials)
 
-for(let i=0; i < dogNames.length; i++){
-  leterString += dogNames[i].slice(0,1)
-}
-
-const initials = `${leterString}`;
-
-console.log(initials)
 /*
 10 - Comente o console.log acima e:
 
@@ -140,7 +135,7 @@ console.log(initials)
 - Utilize o método adequado para isso.
 */
 
-
+//console.log(initials.toLowerCase())
 
 /*
 11 - Comente o console.log acima e:
@@ -157,7 +152,15 @@ constante que você criou.
 
 'A SOBREMESA é um doce à base de coco, tradicional na América Latina e em Angola.'
 */
+const dessert = `${dogNames[0].slice(-2)}${dogNames[1].slice(-2)}${dogNames[3].slice(-2)}`
+const word = dessert.replace("n","d")
+const frase = `A ${word.toUpperCase()} é um doce à base de coco, tradicional na América Latina e em Angola.`
+//console.log(frase)
 
+
+/* dogNames.forEach((item) => {
+
+}) */
 
 
 /*
@@ -173,3 +176,6 @@ já tem, mais 4;
 - Agora, o resultado exibido no console deve ser 729.
 */
 
+let oddNumbers = [3,5,7]
+oddNumbers[1] += 4
+console.log(oddNumbers[1] ** 3)
