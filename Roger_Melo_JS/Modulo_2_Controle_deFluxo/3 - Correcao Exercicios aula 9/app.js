@@ -29,7 +29,18 @@
     "Nem pera nem abacaxi existem no array "fruits".".
 */
 
-const fruits = ['morango', 'banana', 'mamão']
+const fruits = ['morango', 'banana', 'mamão', "abacaxi"]
+
+
+  if(fruits.includes("abacaxi")){
+    //console.log(`A string "abacaxi" existe no array  fruits.`)
+  }else if(fruits.includes("pera")){
+    //console.log(`A string "pera" existe no array fruits.`)
+  }else{
+   // console.log(`Nem pera nem abacaxi existem no array "fruits".`)
+  }
+
+
 
 /*
   02
@@ -43,6 +54,16 @@ const fruits = ['morango', 'banana', 'mamão']
   Obs.: tanto a expressão do lado esquerdo quanto a do lado direito do operador  
   lógico precisam ter a constante especificada. Exemplo: hour > x && hour < y.
 */
+
+const horas = 10
+
+if(horas > 6 && horas < 11){
+  //console.log("Bom dia!")
+}else if(horas > 12 && horas < 17){
+  //console.log("Boa tarde!")
+}else{
+  //console.log("Boa noite!")
+}
 
 /*
   03
@@ -58,6 +79,17 @@ const fruits = ['morango', 'banana', 'mamão']
     também está funcionando.
 */
 
+const age = 65
+let mensagem = null
+
+if(age <= 7 || age >= 65){
+  mensagem = `"Para você, a entrada é grátis!" `
+}else{
+  mensagem = "A entrada é R$ 30,00."
+}
+
+//.log(mensagem)
+
 /*
   04
 
@@ -68,6 +100,18 @@ const fruits = ['morango', 'banana', 'mamão']
 */
 
 const numbers = [7, 92, 34, 46, 90, 25, 11, 3, 89, 76, 99]
+let newArrayNumber = []
+
+for(let i = 0; i < numbers.length; i++){
+  const number = numbers[i]
+  const isNumberBetween = number >= 11 && number <= 90
+
+  if(isNumberBetween){
+      newArrayNumber.push(numbers[i])
+  }
+}
+
+//console.log(newArrayNumber)
 
 /*
   05
@@ -83,6 +127,24 @@ const numbers = [7, 92, 34, 46, 90, 25, 11, 3, 89, 76, 99]
 */
 
 const crazyArray = [true, 869, 'oi', 71, false, 83, '35', true, 397, 'js', false]
+
+let amountStr = 0
+let amountNum = 0
+let amountBol = 0
+
+for(let i = 0; i < crazyArray.length; i++){
+  const typeOfItem = typeof crazyArray[i]
+  const isTypeString = typeOfItem === "string"
+  const isTypeNumber = typeOfItem === "number"
+
+  if(isTypeString) amountStr++
+  else if(isTypeNumber) amountNum++
+  else amountBol++
+}
+
+const frase = `O crazyArray tem ${amountBol} booleans, ${amountNum} números e ${amountStr} strings.` 
+console.log(frase)
+
 
 /*
   06
