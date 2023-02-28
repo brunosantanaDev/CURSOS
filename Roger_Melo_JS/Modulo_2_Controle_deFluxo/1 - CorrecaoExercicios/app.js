@@ -77,11 +77,12 @@ const typeSentence = `O tipo de dado que a const "isRandomTVShowIncluded" armaze
   "A string que a "typeSentence" armazena tem mais de NÚMERO_DE_CARACTERES  
   caracteres? BOOLEAN."
 */
+const totalChar = 39
+const bol = typeSentence.length > totalChar
+const frase = `A string que a "typeSentence" armazena tem mais de ${totalChar} caracteres? ${(String(bol))
+  .replace("t","T")}.`
 
-
-
-
-
+//console.log(frase)
 
 
 /*
@@ -95,6 +96,11 @@ const typeSentence = `O tipo de dado que a const "isRandomTVShowIncluded" armaze
 */
 
 const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
+//console.log(`Todos os ${falsyValues.length} itens do array "falsyValues" são falsy. Inclusive o ${falsyValues[2]}.`)
+
+
+
+
 
 /*
   07 - Comente o console.log() acima e:
@@ -104,6 +110,14 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
     em boolean.
   - Você sabe por que essa conversão resultou em true?
 */
+
+const crazyOperation = null + 1;
+const crazyConversion = Boolean(crazyOperation)
+//console.log(crazyConversion)
+
+
+
+
 
 
 
@@ -120,6 +134,21 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
   é: BOOLEAN."
 */
 
+const ages = [31, 82, 61, 11]
+const agesSum = ages[0] + ages[2]
+
+const number = 92
+const booleanAgesSum = agesSum <= number
+const frase2 = `A soma entre o 1º e o 3º item de "ages" é menor ou igual a 92. Essa afirmação é: ${booleanAgesSum}`
+
+//console.log(frase2)
+
+
+
+
+
+
+
 
 
 /*
@@ -130,6 +159,12 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
   - Essa expressão deve resultar em false.
   - Exiba a "isNotAString" no console.
 */
+
+const isNotAString = typeof randomTVShow !== "string"
+//console.log(isNotAString)
+
+
+
 
 
 
@@ -142,3 +177,5 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
 */
 
 const evenNumbers = [0, 2, 4, 6, 8, 10]
+const arrayEvenNumbers = evenNumbers.indexOf(8) !== -1
+console.log(arrayEvenNumbers)
