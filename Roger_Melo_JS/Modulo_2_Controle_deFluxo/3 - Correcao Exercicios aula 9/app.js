@@ -143,7 +143,7 @@ for(let i = 0; i < crazyArray.length; i++){
 }
 
 const frase = `O crazyArray tem ${amountBol} booleans, ${amountNum} números e ${amountStr} strings.` 
-console.log(frase)
+//console.log(frase)
 
 
 /*
@@ -152,6 +152,7 @@ console.log(frase)
   - Abaixo do array "randomNumbers", utilize um for loop para gerar 2 novos  
     arrays: um array com apenas os números ímpares do "randomNumbers" e um outro  
     array com apenas os números pares;
+
   - Após isso, utilizando os dois arrays que você criou, exiba a frase abaixo  
     no console, substituindo "XX, XX e XX" pelos números corretos. Os números  
     da frase não devem ser inseridos com a notação "item[index]" e os "e" antes  
@@ -164,3 +165,22 @@ console.log(frase)
 */
 
 const randomNumbers = [73, 4, 67, 10, 31, 58]
+const arrayEven = []
+const arrayOdd = []
+
+for(let i = 0; i < randomNumbers.length; i++){
+  const numberItem = randomNumbers[i]
+  const numberEven = numberItem % 2 === 0
+
+  if(numberEven){
+    arrayOdd.push(numberItem)
+  }else{
+    arrayEven.push(numberItem)
+  }
+}
+
+const strArrayOdd = arrayEven.join(", ").replace(", 3"," e 3")
+const strArrayEven = arrayOdd.join(", ").replace(", 5"," e 5")
+
+const fraseArray = `Numeros ímpares: ${strArrayOdd}. Números pares: ${strArrayEven}.`
+console.log(fraseArray)

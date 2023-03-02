@@ -8,13 +8,13 @@ export default function dateObject(){
   const horarioAgora = dataAgora.getHours()
 
   const semanaAberto = diasSemana.indexOf(diaHoje) !== -1
-  const horarioAberto = (horarioAgora >= horarioSemana[0] && horarioAgora < horarioSemana[1])
+  const horarioAberto = 
+  (horarioAgora >= horarioSemana[0] && horarioAgora < horarioSemana[1])
 
   if(semanaAberto && horarioAberto){
     funcionamento.classList.add("ativo")
   }
 }
-
 
 const agora = new Date();
 const promocao = new Date('December 24 2018 23:59');
@@ -22,11 +22,9 @@ const promocao = new Date('December 24 2018 23:59');
 function converterEmDias(time) {
   return time / (24 * 60 * 60 * 1000);
 }
-console.log(agora.getTime(),converterEmDias(agora), agora)
 
 const diasAgora = converterEmDias(agora);
 const diasPromocao = converterEmDias(promocao);
-
 const faltam = diasPromocao - diasAgora;
 
 
