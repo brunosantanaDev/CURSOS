@@ -258,3 +258,35 @@ section.innerHTML = paragraphs
     pelo restante da quantidade de pessoas que curtiram o post (além das duas  
     pessoas já mencionadas no início da mensagem).
 */
+
+const namesPeople = ['Bruno','Felipe',"Jorge",'Camila',"Adalmo","Aluísio"]
+
+const countCurtidas = (array = []) => {
+  const arrayNoEmpyt = array.length !== 0
+  let wordPeople = ""
+
+  if(arrayNoEmpyt){
+    array.forEach((item, index, arrayClick) => {
+      if(arrayClick.length === 1){
+         wordPeople = `${item} curtiu isso`
+
+      }else if(arrayClick.length === 2){
+        wordPeople = `${arrayClick.join(" e ")} curtiu isso`
+
+      }else if(arrayClick.length === 3){
+        const secondItem = arrayClick[1]
+        const arrayJoin = arrayClick.join(`,`).replace(`,${secondItem},`,`, ${secondItem} e `)
+        wordPeople = `${arrayJoin} curtiu isso`
+
+      }else{
+        const twoPeople = `${arrayClick[0]}, ${arrayClick[1]}`
+        wordPeople = `${twoPeople} e mais ${arrayClick.length} pessoas curtiram isso` 
+      }
+      console.log(wordPeople)
+    })
+  }else{
+    console.log("Ninguém curtiu isso")
+  }
+}
+
+countCurtidas(namesPeople)
