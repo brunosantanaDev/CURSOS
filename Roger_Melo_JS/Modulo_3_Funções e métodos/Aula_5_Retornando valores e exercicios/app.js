@@ -76,7 +76,7 @@ const newArrayString = function(array = []){
 }
 
 const milleniumWordsUpperCase = newArrayString(millennialWords)
-log(milleniumWordsUpperCase)
+//log(milleniumWordsUpperCase)
 
 
 
@@ -93,6 +93,26 @@ log(milleniumWordsUpperCase)
 
 const randomNumbers = [-2, 93, 34, -1, 1, 93, 11, -7, 47, -3]
 
+const countNumber = function(number = 0){
+  return number >= 0
+}
+
+const totalArray = randomNumbers.length
+let numberPositive = 0
+let numberNegative = 0
+
+for(let i = 0; i < randomNumbers.length; i++){
+  if(countNumber(randomNumbers[i]))
+    numberPositive++
+  else 
+    numberNegative++
+}
+
+const wordIsPositiveOrNegative = `O array "randomNumbers" possui ${totalArray} números, sendo ${numberPositive} positivos e ${numberNegative} negativos.`
+
+//console.log(wordIsPositiveOrNegative)
+
+
 /*
   06
 
@@ -103,7 +123,25 @@ const randomNumbers = [-2, 93, 34, -1, 1, 93, 11, -7, 47, -3]
     função.
 */
 
-// getOddNumbers([83, 52, 31, 73, 98, 37, 61, 56, 12, 24, 35, 3, 34, 80, 42])
+const getOddNumbers = function(matriz){
+  const newArray = []
+
+  for(let i = 0; i < matriz.length; i++){
+    let number = matriz[i]
+
+    if(number % 2 !== 0){
+      newArray.push(number)
+    }
+  }
+
+  return newArray
+}
+
+
+const filterOdd = getOddNumbers([83, 52, 31, 73, 98, 37, 61, 56, 12, 24, 35, 3, 34, 80, 42])
+
+console.log(filterOdd)
+
 
 /*
   07
