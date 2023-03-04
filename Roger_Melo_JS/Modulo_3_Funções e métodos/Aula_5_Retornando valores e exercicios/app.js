@@ -94,7 +94,7 @@ const milleniumWordsUpperCase = newArrayString(millennialWords)
 const randomNumbers = [-2, 93, 34, -1, 1, 93, 11, -7, 47, -3]
 
 const countNumber = function(number = 0){
-  return number >= 0
+  return number >= 1
 }
 
 const totalArray = randomNumbers.length
@@ -123,24 +123,23 @@ const wordIsPositiveOrNegative = `O array "randomNumbers" possui ${totalArray} n
     função.
 */
 
-const getOddNumbers = function(matriz){
-  const newArray = []
+const getOddNumbers = function(matriz = []){
+  const newMatriz = []
 
   for(let i = 0; i < matriz.length; i++){
     let number = matriz[i]
+    const numberIsOdd = number % 2 !== 0
 
-    if(number % 2 !== 0){
-      newArray.push(number)
+    if(numberIsOdd){
+      newMatriz.push(number)
     }
   }
 
-  return newArray
+  return newMatriz
 }
 
-
 const filterOdd = getOddNumbers([83, 52, 31, 73, 98, 37, 61, 56, 12, 24, 35, 3, 34, 80, 42])
-
-console.log(filterOdd)
+//console.log(filterOdd)
 
 
 /*
@@ -179,3 +178,13 @@ const functions = [
   function () { return 'Índias' },
   function () { return 'Ocidentais.' }
 ]
+
+let words = ""
+
+for(let i = 0; i < functions.length; i++){
+  const string = `${functions[i]()} `
+  words += string
+}
+
+const fraseFinal = words.replace("as Oc","as e Oc")
+console.log(fraseFinal)
