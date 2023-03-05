@@ -268,7 +268,7 @@ const countCurtidas = (array = []) => {
   if(arrayNoEmpyt){
     array.forEach((item, index, arrayClick) => {
       if(arrayClick.length === 1){
-         wordPeople = `${item} curtiu isso`
+         wordPeople = `${arrayClick[0]} curtiu isso`
 
       }else if(arrayClick.length === 2){
         wordPeople = `${arrayClick.join(" e ")} curtiu isso`
@@ -280,7 +280,7 @@ const countCurtidas = (array = []) => {
 
       }else{
         const twoPeople = `${arrayClick[0]}, ${arrayClick[1]}`
-        wordPeople = `${twoPeople} e mais ${arrayClick.length} pessoas curtiram isso` 
+        wordPeople = `${twoPeople} e mais ${arrayClick.length - 2} pessoas curtiram isso` 
       }
       console.log(wordPeople)
     })
