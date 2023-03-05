@@ -71,12 +71,12 @@ const addFriends = (name) => {
     colchetes.
 */
 
-const addColor = (color, object) => {
-  object['color'] = color
+const addColor = (object) => {
+  object['color'] += ' e Azul' 
 }
-addColor("white", cat)
 
-console.log(cat['color'])
+addColor(cat)
+//console.log(cat['color'])
 
 
 
@@ -89,6 +89,12 @@ console.log(cat['color'])
   - Utilize a função para exibir no console se "cat" é um objeto.
 */
 
+isObject = (value) => typeof value === "object"
+//console.log(isObject(cat))
+
+
+
+
 /*
   07
 
@@ -99,6 +105,25 @@ console.log(cat['color'])
   "A soma das idades de NOME_DO_GATO e NOME_DO_CACHORRO é RESULTADO_DA_SOMA."
 */
 
+const dog = {
+  name: "Charles",
+  age: 5,
+  color: "yellow",
+  bestFriends: ['piter','constantino'],
+  sound(){
+    return 'Woooof...'
+  }
+}
+
+const ageAnimals = (cat, dog) => {
+  const sumAge = cat.age + dog.age
+  //console.log(`A soma das idades de ${cat.name} e ${dog.name} é ${sumAge}.`)
+}
+
+ageAnimals(cat, dog)
+
+
+
 /*
   08
 
@@ -107,16 +132,31 @@ console.log(cat['color'])
   - Como você refatoraria esta função?
 */
 
-const isAnSUV = car => {
+/* const isAnSUV = car => {
   if (car === 'Honda HR-V' || car === 'Jeep Renegade' || car === 'Ford EcoSport' || car === 'Hyundai iX35') {
     return true
   }
 
   return false
+} */
+
+const isAnSUV = car => {
+  switch(car){
+    case 'Honda HR-V':
+      return true
+    case 'Jeep Renegade':
+      return true
+    case 'Ford EcoSport':
+      return true
+    case 'Hyundai iX35':
+      return true
+    default:
+      return false
+  }
 }
 
-// console.log(isAnSUV('Honda Civic'))
-// console.log(isAnSUV('Ford EcoSport'))
+/* console.log(isAnSUV('Honda Civic'))
+console.log(isAnSUV('Ford EcoSport')) */
 
 /*
   09
@@ -130,3 +170,18 @@ const isAnSUV = car => {
     propriedades, retorne a mensagem que a propriedade armazena;
   - Teste a função, exibindo no console a mensagem de cada propriedade.
 */
+
+
+const verifyType = type => {
+  const obj = {
+    null: "Seta, explicitamente, uma variável sem valor",
+    undefined: "Representa um valor não-setado.",
+    object: "Arrays, Datas, Objetos literais, Funções, etc."
+  }
+
+ return obj[type]
+}
+
+console.log(verifyType('null'))
+console.log(verifyType('undefined'))
+console.log(verifyType('object'))
