@@ -35,9 +35,10 @@ const external = () => {
     const extraInternal = () => {
       console.log(movie.toUpperCase())
     }
+    extraInternal()
   }
- 
-  console.log(movie.toUpperCase())
+  internal()
+
 }
 
 external()
@@ -53,6 +54,7 @@ external()
 
 let randomNumbers = [3, 2, 1]
 
+console.log(randomNumbers.reverse())
 /*
   04
 
@@ -66,6 +68,11 @@ let crazyArray = [
   function getMessage () { return 'hi' },
   [ 5, 96, 53  ]
 ]
+crazyArray.shift()
+console.log(crazyArray)
+
+
+
 
 /*
   05
@@ -83,6 +90,9 @@ const dogs = [
   { name: 'Zequinha', age: 7, gender: 'Male', breed: 'Poodle' },
   { name: 'Xica', age: 6, gender: 'Female', breed: 'Chihuahua' }
 ]
+
+const zequinha = dogs.find(dog => dog.name === 'Zequinha')
+console.log(zequinha )
 
 /*
   06
