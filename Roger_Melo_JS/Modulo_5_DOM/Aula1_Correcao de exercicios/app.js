@@ -139,5 +139,5 @@ console.log(Math.trunc(fourthNumber))
     aleatório de 0 à 10, incluindo 0 e 10.
 */
 
-const numberAlet = Math.random() *10
-console.log(numberAlet)
+const numberAlet = Math.random()
+console.log(Math.round(numberAlet * 10))
