@@ -20,9 +20,11 @@ h1.innerText = h1.innerText.toUpperCase()
 const numbers = [53, 24, 3, 8, 1, 6, 57, 80, 77, 98, 55]
 const ulNumbers = document.querySelector(".numbers")
 
-numbers.forEach(number => {
+const insertNumberInUl = number => {
   ulNumbers.innerHTML += `<li class="number">${number}</li>`
-})
+}
+
+numbers.forEach(insertNumberInUl)
  
 
 
@@ -35,19 +37,21 @@ numbers.forEach(number => {
     - Se o número é ímpar, exiba-o na cor "pink".
 */
 
+const liNumbers = document.querySelectorAll(".number")
 
-const liNumbers = ulNumbers.querySelectorAll(".number")
-
-liNumbers.forEach(itemLi => {
+const colorNumberEven = itemLi => {
   const number = +itemLi.innerText
   const restDivision = number % 2 === 0
   
   if(restDivision){
     itemLi.style.color = 'blue'
-  }else{
-    itemLi.style.color = 'red'
+    return
   }
-})
+
+  itemLi.style.color = 'red'
+}
+
+liNumbers.forEach(colorNumberEven)
 
 
 
@@ -63,7 +67,6 @@ document.body.classList.add("body-background")
 
 
 
-
 /*
   05
 
@@ -73,7 +76,7 @@ document.body.classList.add("body-background")
 */
 const link = document.querySelector('.link')
 link.attributes['href'].value = 'https://github.com/roger-melo-treinamentos/curso-de-js-roger-melo'
-
+// Ou link.setAttribute('href','url')
 
 
 /*
@@ -112,4 +115,4 @@ console.log(h1.style)
   - Não utilize o método remove() para fazer isso.
 */
 
-link.removeAttribute("class")
+link.classList.toggle('link')
