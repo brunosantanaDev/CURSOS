@@ -82,7 +82,7 @@ link.attributes['href'].value = 'https://github.com/roger-melo-treinamentos/curs
   - Exiba o novo valor do atributo href do link no console.
 */
 
-console.log(link.attributes['href'].value)
+console.log(link.getAttribute('href'))
 
 
 
@@ -94,7 +94,7 @@ console.log(link.attributes['href'].value)
     manipuladas via JS no h1.
 */
 
-
+console.log(h1.style)
 
 /*
   08
@@ -102,6 +102,7 @@ console.log(link.attributes['href'].value)
   - Remova a classe "body-background", do elemento body.
 */
 
+  document.body.classList.remove("body-background")
 
 
 /*
@@ -110,3 +111,5 @@ console.log(link.attributes['href'].value)
   - Se o link da página possuir uma classe "link", remova-a;
   - Não utilize o método remove() para fazer isso.
 */
+
+link.removeAttribute("class")
