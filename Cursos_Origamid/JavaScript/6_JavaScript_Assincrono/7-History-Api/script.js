@@ -30,7 +30,6 @@ function replaceContent(newText){
 
 window.addEventListener("popstate", () => {
  fetchPage(window.location.href)
-console.log(this)
 })
 
 

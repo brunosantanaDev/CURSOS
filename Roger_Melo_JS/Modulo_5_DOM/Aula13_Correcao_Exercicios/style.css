@@ -1,0 +1,13 @@
+.body-background {
+  color: white;
+  background-color: #3d0f92;
+}
+
+.number {
+  list-style: none;
+  color: rgb(5, 8, 208);
+}
+
+.link {
+  color: lightblue;
+}
