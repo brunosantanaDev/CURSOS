@@ -125,6 +125,10 @@ console.log(zequinha )
     </article>
   </section>
 */
+const h1 = document.querySelector(".main-title")
+console.log(h1)
+
+
 
 /*
   07
@@ -133,3 +137,6 @@ console.log(zequinha )
     página, através da classe deles;
   - Exiba esse NodeList no console.
 */
+
+const teste = document.querySelectorAll(".secondary-title")
+console.log(teste)
