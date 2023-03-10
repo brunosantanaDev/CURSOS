@@ -95,11 +95,13 @@ const videos = [
   }
 ]
 
+
 const insertTitleVideo = ({name}) => {
   const li = document.createElement('li')
   li.textContent = name
   ul.append(li)
 }
+
 
 const addTitle = () => {
   videos.forEach(insertTitleVideo)
@@ -110,6 +112,7 @@ button.addEventListener("click", addTitle)
 
 
 
+ 
 
 /*
   07
