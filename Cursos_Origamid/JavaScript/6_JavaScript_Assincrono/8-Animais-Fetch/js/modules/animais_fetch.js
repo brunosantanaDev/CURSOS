@@ -7,10 +7,10 @@ async function fetchAnimais(url){
   const animaisJson = await animaisResponse.json()
   const sectionNumbers = document.querySelector(".numeros-grid")
 
-  animaisJson.forEach(obj => {
+  animaisJson.forEach(({especie, total}) => {
     const div = document.createElement("div")
     div.classList.add("numero-animal")
-    div.innerHTML = `<h3>${obj.especie}</h3><span>${obj.total}</span>`
+    div.innerHTML = `<h3>${especie}</h3><span>${total}</span>`
     sectionNumbers.append(div)
   });
 

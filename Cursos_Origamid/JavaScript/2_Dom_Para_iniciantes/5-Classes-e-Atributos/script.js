@@ -15,7 +15,7 @@ console.log(animais.attributes["data-teste"].value)
 // Adicione a classe ativo a todos os itens do menu
 const menu = document.querySelectorAll(".menu a");
 
-menu.forEach((item) => {
+menu.forEach(item => {
   let a = item.classList.add("ativo");
   console.log(item);
 });
@@ -31,7 +31,7 @@ menu[0].classList.add("ativo");
 
 // Verifique se as imagens possuem o atributo alt
 const imgs = document.querySelectorAll("img");
-imgs.forEach((img) => {
+imgs.forEach(img => {
   const veImg = img.hasAttribute("alt");
   console.log(img, veImg);
 });
