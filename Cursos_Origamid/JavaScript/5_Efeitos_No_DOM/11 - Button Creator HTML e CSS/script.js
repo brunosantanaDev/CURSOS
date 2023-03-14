@@ -48,7 +48,6 @@ function saveValues(name, value){
 
 function setValues(){
   const properties = Object.keys(localStorage)
-console.log(properties)
   properties.forEach(propertie => {
     handleStyle[propertie](localStorage[propertie])
     controles.elements[propertie].value = localStorage[propertie]

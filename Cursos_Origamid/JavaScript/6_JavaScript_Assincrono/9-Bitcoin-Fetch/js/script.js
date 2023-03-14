@@ -10,6 +10,7 @@ import initDropDownMenu from "./modules/dropdown-menu.js"
 import initMenuMobile from "./modules/menu-mobile.js"
 import initDataObject from "./modules/date_object.js"
 import initFetchAnimais from "./modules/animais_fetch.js"
+import initBitcoiFetch from "./modules/bitcoin-fetch.js"
 
 initTabNav()
 initScrollSuave()
@@ -21,3 +22,4 @@ initDropDownMenu()
 initMenuMobile()
 initDataObject()
 initFetchAnimais()
+initBitcoiFetch()
