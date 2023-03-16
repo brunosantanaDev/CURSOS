@@ -4,7 +4,9 @@ export default function initiBiticoinFetch() {
     .then(response => response.json())
     .then(bitcoin => {
         const btcPreco = document.querySelector(".btc-preco")
-        btcPreco.innerText = (100 / bitcoin.BRL.buy).toFixed(4)
+        btcPreco.innerText = (1000 / bitcoin.BRL.sell).toFixed(4)
+    }).catch(erro => {
+        console.log(Error(erro), "Ocorreu um erro na requisição")
     })
 }
 
