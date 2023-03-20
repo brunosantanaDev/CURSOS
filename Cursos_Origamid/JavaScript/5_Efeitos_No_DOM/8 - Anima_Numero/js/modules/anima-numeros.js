@@ -2,13 +2,13 @@ export default function initAnimaNumero() {
   const numeros = document.querySelectorAll("[data-numero]");
 
   function animaNumeros(){
-    numeros.forEach((numero) => {
+    numeros.forEach(numero => {
       const total = +numero.innerText
       const incremento = Number.parseInt(total / 100)
       let start = 0
               
       const timer = setInterval(() => {
-        start = start + incremento
+        start += incremento
         numero.innerText = start
         if(start > total){
           numero.innerText = total
