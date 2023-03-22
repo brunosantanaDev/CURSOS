@@ -20,7 +20,7 @@ const listaLi = document.querySelectorAll('li')
 //console.log(listaLi)
 
 for(li of listaLi){
-    li.classList.add('a')
+    li.classList.add('ativo')
 }
 
 console.log(...listaLi)
@@ -33,12 +33,13 @@ const winProperts = window
 //console.log(winProperts)
 let i = 0
 const section = document.querySelector("section")
+
 for(win in winProperts){
     const div = document.createElement('div')
     const text = `<div>${win}</div>`
     div.innerHTML = text
+
     setTimeout(() => {
         section.append(div)
     }, 1000 * i++)
-    
 }
