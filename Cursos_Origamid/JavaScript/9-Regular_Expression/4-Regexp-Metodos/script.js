@@ -8,3 +8,10 @@ const regex = /\w+\s/gi;
 
 const frase = nome.replace(regexp, 'Bruno Henrique ')
 console.log(frase)
+
+
+
+
+
+
+

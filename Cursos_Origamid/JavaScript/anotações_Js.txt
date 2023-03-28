@@ -34,7 +34,7 @@ function nomeCompleto(nome, ...rest){
 		
 	arguments -> objeto que se parece com array
 
-	...rest é um objeto do tipo array com todos 
+	...rest é um array com todos 
 	os argumentos passados como paramentro da função.
 }
 

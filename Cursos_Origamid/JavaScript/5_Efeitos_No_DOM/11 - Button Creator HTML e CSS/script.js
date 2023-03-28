@@ -57,6 +57,7 @@ function setValues(){
 setValues()
 
 function showsCss(){
-  cssText.innerHTML = "<span>" + btn.style.cssText.split("; ").join(";</span><span>")
+  cssText.innerHTML = "<span>" + btn.style.cssText.split("; ")
+  .join(";</span><span>")
 }
 
