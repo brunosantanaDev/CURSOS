@@ -1,0 +1,155 @@
+Aula Alura Regex
+https://www.alura.com.br/conteudo/expressoes-regulares?gclid=CjwKCAjw_YShBhAiEiwAMomsEDqOncuwkP6oT_Gg0ZzJuIm-OAlGP3R2Q5pY_E17i8CzTNFhiE-PghoCECAQAvD_BwE
+
+
+
+Padrão da Regex -> //
+
+
+
+//g 
+-> a flag //g indica que desejamos selecionar todas as ocorrências encontradas
+
+
+//i
+A flag //i indica que desejamos selecionas as ocorrencias independende de 
+ser maiusculas ou minusculas, a occorência fica como case Insentitive.
+
+
+^[a-z]
+-> circonflexo nega a expressão, lembrando que deve estar dentro dos colchetes 
+Ex: /^[a-z]/g - ele ira negar todas as letras de a a z minusculo
+
+
+\
+Caracteres especiais como o ponto ., podem ser escapados utilizando 
+a barra \, assim este não terá mais a sua função especial e será 
+tratado como literal. Lista de caracteres especiais: +*?^$\.[]{}()|/
+
+
+\w 
+-> seleciona todos os caracter alfanumeriocos menos espaços e undeline
+é a mesma coisa que [A_Za-z0-9]
+
+
+\W
+-> Com maiusculo ele vai negar tudo que for alfanumerico letras e underline.
+nesse caso ele seleciona ponto, virgula, espaço em branco, [], {} 
+
+
+\d 
+-> seleciona tudo que for digito no caso numeros
+
+
+\D
+-> o maiusculo seleciona tudo que não for digito, ou seja, tudo que não for numero
+
+
+\s
+-> seleciona tudo que for espaço, tab e quebra de linha
+
+
+\S 
+-> com o maiusculo ele nega tudo que for espaço, tab e quebra de linha e seleciona
+tudo que não é espaço, tab e quebra de linha, ou seja, letras e numeros, ponto
+
+
+{}  -  Quantificador
+determina a quantidade de caracter você deseja selecoanar 
+Ex: "Vaiiiii" -> /i{3}/g ou /i{2,4}/g ou apartir i{2,}
+Ou seja seleciona o primeiro i e mais 3 apos o primeiro.
+
+
++
+Seleciona 1 ou mais ocorrencias quando existir, seleciona todos os i's em sequencia
+Ex: /i+/ - Vaiiiiiiii = Va(iiiiiiiii)
+
+
+*
+O sinal * significa que devemos selecionar quando existir 0 ou mais ocorrências.
+Procura: Começa com d, seguido por zero ou mais letras.
+const regexp = /d\w*/g;
+
+
+? - Opcional 
+O sinal ? significa que o caracter é opcional, pode ou não existir.
+const regexp = /regexp?/g; -> o p é opcional
+regexp ou regex
+
+
+|
+Alternado | tipo OU Lógico
+O sinal | irá selecionar um ou outro. java|php
+// Procura: java ou php (case insensitive)
+const regexp = /java|php/gi;
+
+
+\B
+WORD BOUNDARY
+O sinal \b irá indicar que pretendemos fazer uma seleção que deve ter 
+início e fim de não caracteres \w.
+
+
+^
+Com o ^ é possível informar que a busca deve ser iniciada no início da linha.
+
+$
+Com o $ é possível informar que a busca deve ser iniciada no final da linha.
+
+
+Flag m - multiplay
+ A flag multiplay permite selecionar varias linhas
+
+
+\n Line feed
+-> \n seleciona o final de uma linha quando criar uma nova linha
+
+
+\u 
+-> seleciona unicode
+Ex: /\u00A9/g
+
+
+
+
+
+
+
+####################################
+########    SUBSTITUIÇÃO    ########
+####################################
+
+$&
+-> esse simbolo faz referencia a seleção no regex
+Ex: /java/g 
+$& = java
+
+
+() - Grupo de captura
+Procura: sequência alfanumérica, seguida de @, seguido de alfanumérico ou .
+const regexp = /(\w+)@[\w.]+/g;
+'andre@email.com.br'.replace(regexp, '$1@gmail.com');
+// andre@gmail.com
+
+?:
+-> nega o grupo de captura, mais seleciona a palavra normalemente
+const regexp = /(?:ta)+/g;
+
+
+?=
+Positive Lookahead
+const regexp = /\d(?=px)/g;
+?!
+Negação
+const regexp = /\d(?!px)/g;
+
+?<=<
+Positive Lookbehind
+/(?<=<\/)[\w]+/g
+
+
+
+
+####################################
+########       PADRÕES      ########
+####################################
