@@ -18,11 +18,21 @@ export default class ValidarCpf {
 
     validar(cpf){
         const matchCpf = cpf.match(/(?:\d{3}[-.\s]?){3}\d{2}/g)
+        console.log(matchCpf)
         return (matchCpf && matchCpf[0] === cpf)
     }
 
     validarMudanca(cpfElement){
-        this.validar(cpfElement.value)
+        if(this.validar(cpfElement.value)){
+            cpfElement.value = this.formatar(cpfElement.value)
+            cpfElement.classList.remove('erro')
+            cpfElement.classList.add('valid')
+            cpfElement.nextElementSibling.classList.remove('ativa')
+        }else{
+            cpfElement.classList.add('erro')
+            cpfElement.classList.remove('valid')
+            cpfElement.nextElementSibling.classList.add('ativa')
+        }
     }
 
     adicionarEvento(){
@@ -31,7 +41,15 @@ export default class ValidarCpf {
         })
     }
 
+    adicionarErroSpan(){
+        const erroElement = document.createElement('span')
+        erroElement.classList.add('erro-text')
+        erroElement.innerText = 'CPF Inválido...'
+        this.element.parentElement.insertBefore(erroElement, this.element.nextElementSibling)
+    }
+
     iniciar(){
+        this.adicionarErroSpan()
         this.adicionarEvento()
         return this
     }
