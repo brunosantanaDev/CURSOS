@@ -30,8 +30,6 @@ export default function cadastrarNovosUsuarios(){
         }
     }
 
-
-    const form = document.querySelector('button')
-    form.addEventListener('click', cadastrarNomes)
-
+    const btn = document.querySelector('button')
+    btn.addEventListener('click', cadastrarNomes)
 }
