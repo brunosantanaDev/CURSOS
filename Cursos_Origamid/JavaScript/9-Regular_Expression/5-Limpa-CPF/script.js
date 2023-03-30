@@ -20,7 +20,10 @@ const formatarCPFS = cpfs => {
 const substituirCPFS = (cpfsElements) => {
   const cpfs = elementInnerText(cpfsElements)
   const cpfsFormatados = formatarCPFS(cpfs)
- 
+
+  cpfsElements.forEach((element, index) => {
+    element.innerText = cpfsFormatados[index]
+  }) 
 }
 
 substituirCPFS(cpfsList)
