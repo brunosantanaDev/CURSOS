@@ -24,6 +24,7 @@ export default function initAnimaNumero() {
       animaNumeros();
     }
   }
+
   const observerTarget = document.querySelector('.numeros');
   observer = new MutationObserver(handleMutation);
   observer.observe(observerTarget, { attributes: true });
