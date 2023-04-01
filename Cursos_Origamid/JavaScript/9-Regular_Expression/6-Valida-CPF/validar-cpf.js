@@ -18,7 +18,6 @@ export default class ValidarCpf {
 
     validar(cpf){
         const matchCpf = cpf.match(/(?:\d{3}[-.\s]?){3}\d{2}/g)
-        console.log(matchCpf)
         return (matchCpf && matchCpf[0] === cpf)
     }
 

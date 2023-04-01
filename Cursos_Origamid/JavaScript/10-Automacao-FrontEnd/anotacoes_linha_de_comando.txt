@@ -1,0 +1,30 @@
+COMANDOS LINHA DE COMANDO
+
+Entra na pasta
+    -> cd nomePasta
+    -> cd ~/descktop/sites
+
+Sair da Pasta
+    -> cd..
+
+
+Criar Arquivos
+    -> touch arquivo.extencao
+
+Remover Arquivos
+    -> rm arquivo.extencao
+
+
+Criar Pasta
+    -> mkdir nomePasta
+
+REmover Pasta
+    -> rm -r nomePasta
+
+
+Limpar 
+    -> clear ou cls
+
+
+Autocompletar
+    -> tecla TAB
