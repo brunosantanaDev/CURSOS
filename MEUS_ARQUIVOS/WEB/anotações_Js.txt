@@ -1,0 +1,196 @@
+
+##########################################
+#######		Pegar Valor Na URL	   #######
+##########################################
+
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('ufc');
+const myParam2 = urlParams.get('myParam');
+
+
+
+
+#######################################
+#######		Desconstructor		#######
+#######################################
+
+const pessoa = {
+	nome: "Bruno"
+	idade: 32
+	uf: 'rj'
+	logradouro: 'rua dos amigos'
+}
+
+const {nome, idade, logradouro: rua} = pessoa;
+
+
+
+
+###################################
+#######		Rest e Spread	#######
+###################################
+			
+function nomeCompleto(nome, ...rest){
+		
+	arguments -> objeto que se parece com array
+
+	...rest é um array com todos 
+	os argumentos passados como paramentro da função.
+}
+
+nomeCompleto('Bruno', 32, '13985359741')
+
+
+
+
+###################################
+#######			#######
+###################################
+
+
+###################################
+#######			#######
+###################################
+
+
+###################################
+#######			#######
+###################################
+
+
+###################################
+#######			#######
+###################################
+
+
+###################################
+#######			#######
+###################################
+
+
+###################################
+#######			#######
+###################################
+
+
+
+
+popstate = Evento do window
+	-> window.addEventListener("popstate",()=>{
+		window.history.pushState(null, null, url)
+	   })
+   
+	->popstate
+
+Pesquisar evento:  hashchange
+	
+window.history.pushState(null, null, url)
+	-> define uma url na barra de endereço
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

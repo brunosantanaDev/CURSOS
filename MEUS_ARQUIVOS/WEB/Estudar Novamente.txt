@@ -1,0 +1,14 @@
+Modulo Efeitos no Dom
+Modulo Objetos
+Expressoes regulares
+(str.match, reg.exec, reg.test)
+
+Modulo 6 - Aula History API
+Eslint
+Clousure
+Debuggin
+Webpack
+Babel
+
+
+Testa o this dentro de da Class (Aula Validar CPF)

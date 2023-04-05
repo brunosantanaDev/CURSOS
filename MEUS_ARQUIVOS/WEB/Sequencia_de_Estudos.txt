@@ -1,0 +1,24 @@
+- Javascript
+	voltar Mod(Efeitos Dom, Objetos, Regex)
+
+Explorer
+
+3 aulas p/dia
+- React - 108 aulas (3 aulas por dia - 36 dias) Origamid
+(Ao terminar estudar react da B7Web)
+
+4 Aulas p/dia
+- Typescript 74 aulas (4 aulas p/dias - 18 dias)
+
+
+
+
+- Node 196 aulas (6 aulas p/ dia - 40 dias) B7Web
+	(Ao terminar estudar Node Matheus Batisti)
+	
+	
+	
+	
+Curso de React e Node 
+-> JStack
+

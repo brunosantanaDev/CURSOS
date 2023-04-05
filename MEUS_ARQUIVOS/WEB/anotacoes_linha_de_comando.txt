@@ -1,0 +1,42 @@
+COMANDOS LINHA DE COMANDO
+
+Entra na pasta
+    -> cd nomePasta
+    -> cd ~/descktop/sites
+
+Sair da Pasta
+    -> cd..
+	
+Abrir Vscode
+	-> code .
+
+
+Criar Arquivos
+    -> touch arquivo.extencao
+
+
+Remover Arquivos
+    -> rm arquivo.txt
+
+
+Mostra os arquivos da pasta mais detalhado
+ls -all
+
+
+Criar Pasta
+    -> mkdir nomePasta
+
+
+Excluir Pasta com tudo dentro
+    -> rm -r nomePasta
+	
+Excluir aqrquivo
+	-> rm arquivo.txt
+
+
+Limpar 
+    -> clear ou cls
+
+
+Autocompletar
+    -> tecla TAB

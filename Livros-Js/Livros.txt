@@ -1,0 +1,7 @@
+	Lógica de Programação com JavaScript: https://amzn.to/3Rfn1OL
+	Estruturas de Dados com JavaScript: https://amzn.to/3WPIkHD
+	
+	Aprendendo Node: Usando JavaScript no Servidor: https://amzn.to/3wypAlw
+	Construindo Aplicações com NodeJS: https://amzn.to/3kOHduJ
+	
+	
