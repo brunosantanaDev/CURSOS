@@ -1,5 +1,16 @@
+https://www.brasilcode.com.br/10-melhores-livros-javascript-para-desenvolvedores/
+
+
 	Lógica de Programação com JavaScript: https://amzn.to/3Rfn1OL
-	Estruturas de Dados com JavaScript: https://amzn.to/3WPIkHD
+	
+	Estruturas de Dados com JavaScript: 
+	https://amzn.to/3WPIkHD
+	
+	Use a Cabeça Programação JavaScript
+	https://amzn.to/3e3NT1u
+	
+	Padroes JavaScript
+	https://amzn.to/3IWmUmB
 	
 	Aprendendo Node: Usando JavaScript no Servidor: https://amzn.to/3wypAlw
 	Construindo Aplicações com NodeJS: https://amzn.to/3kOHduJ

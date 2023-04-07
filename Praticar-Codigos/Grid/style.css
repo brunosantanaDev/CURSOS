@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(177, 239, 172);
+    box-sizing: border-box;
+}
+
+.pai {
+    background-color: rgb(30, 36, 36);
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filho{
+    background-color: blueviolet;
+    width:150px;
+    height: 100px;
+}

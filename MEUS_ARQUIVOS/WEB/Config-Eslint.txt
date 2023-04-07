@@ -1,0 +1,100 @@
+Instale o plugin Eslint no Vscode
+
+
+Instalar o Eslint Globalmente
+	-> npm install eslint -g
+	
+	
+Iniciar repositorio NPM Local(package.jason)
+	-> npm --init
+	
+	
+Iniciar o eslint (use popular Airbnb - json)
+	-> eslint --init
+	(perguntas?)
+	
+
+	
+	No Eslintrc.json
+
+	no extends: [
+		"Airbnb",
+		"Prettier"
+	]
+	
+   "rules": {
+        "no-console": 0,
+        "no-param-reassign": 0,
+        "import/extensions": 0,
+        "quotes":[
+            "error",
+            "double"
+        ]
+    }
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
