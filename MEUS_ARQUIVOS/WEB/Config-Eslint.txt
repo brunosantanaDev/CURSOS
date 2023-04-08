@@ -1,3 +1,6 @@
+https://eslint.org
+
+
 Instale o plugin Eslint no Vscode
 
 
@@ -6,7 +9,7 @@ Instalar o Eslint Globalmente
 	
 	
 Iniciar repositorio NPM Local(package.jason)
-	-> npm --init
+	-> npm init
 	
 	
 Iniciar o eslint (use popular Airbnb - json)

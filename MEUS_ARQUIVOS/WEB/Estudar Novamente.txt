@@ -11,4 +11,4 @@ Webpack
 Babel
 
 
-Testa o this dentro de da Class (Aula Validar CPF)
+Testa o this dentro da Class (Aula Validar CPF)

@@ -44,8 +44,16 @@ nomeCompleto('Bruno', 32, '13985359741')
 
 
 ###################################
-#######			#######
+#######			Eventos		#######
 ###################################
+
+No evento vovê pode pegar o nome da TAg
+Pelo atruibuto target
+
+event.target.tagName
+
+
+
 
 
 ###################################

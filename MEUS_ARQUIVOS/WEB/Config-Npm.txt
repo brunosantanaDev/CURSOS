@@ -2,8 +2,7 @@
 # Iniciar o NPM no projeto
 	-> npm init
 	
-	(gera o arquivo package.json, nesse arquivo é onde são instaladas as dependecias
-	como jquery, lodash, typescript, eslint)
+	(gera o arquivo package.json, nesse arquivo é onde são instaladas as dependecias como jquery, lodash, typescript, eslint)
 
 -------------------------------------------------------------------------------------------------
 
