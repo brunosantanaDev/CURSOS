@@ -1,5 +1,23 @@
-
-	Estudar Padroes de Projetos
+	Estudar 
+	- Padroes de Projetos
+	- Orientação a Objeto
+	- Programação Funcional
 	
-	Orientação a Objeto
+	- Aprenda a Depurar uma Aplicação React no Vs Code
+	
+	- APIS (REST)
+	
+	- Testes automatizados unitários
+	- Conceitos de Design Responsivo/Adaptativo e Mobile First
+	- Context API
+	- O que é noções sobre componentização react
+	- Otimização de páginas web para SEO
+	- 
+	- 
+	- 
+	- 
+	- 
+	- 
+	- 
+	
 

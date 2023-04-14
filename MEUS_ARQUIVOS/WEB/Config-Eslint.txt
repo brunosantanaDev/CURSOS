@@ -1,3 +1,9 @@
+Comentarios no codigo
+	Linhas = Alt + Shif + A
+	1 Linha Ct
+
+
+
 https://eslint.org
 
 
@@ -8,8 +14,8 @@ Instalar o Eslint Globalmente
 	-> npm install eslint -g
 	
 	
-Iniciar repositorio NPM Local(package.jason)
-	-> npm init
+Iniciar repositorio NPM Local(package.json)
+	-> npm init -y
 	
 	
 Iniciar o eslint (use popular Airbnb - json)
@@ -18,9 +24,10 @@ Iniciar o eslint (use popular Airbnb - json)
 	
 
 	
-	No Eslintrc.json
-
-	no extends: [
+	No arquivo Eslintrc.json
+	No extends faça...
+	
+	extends: [
 		"Airbnb",
 		"Prettier"
 	]

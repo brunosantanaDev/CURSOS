@@ -1,20 +1,37 @@
+Comentarios no codigo
+	Linhas = Alt + Shif + A
+	1 Linha Ct
+
+
+
+
 https://webpack.js.org
 
 Instação Webpack
-	-> npm --init
+	-> npm init -y
 	
 	-> npm install --save-dev webpack webpack-cli
-	(instala webpack e a cli do mesmo, tem que ter o package.json no diretorio)
 	
-	--save-dev 
+	(No react)
+	-> npm install --save-dev webpack webpack-cli webpack-dev-server
+	
+	
+	(instala webpack e a cli do mesmo, tem que ter o package.json no diretório)
+	
+	OBS: --save-dev 
 	-> é para salvar nas dependencias de desenvolvedor, sem isso ele ira salvar nas dependencias normal do projeto.
+	
+	
 	
 --------------------------------------------------------
 
+
+
 	Usando o webpack sem configuração nenhuma, localmente
 	
-	-> npx webpack ./js/script.js -o ./main.js --watch
-	(npx = node_modules/.bin/)
+		-> npx webpack ./js/script.js -o ./main.js --watch
+	
+		(npx = node_modules/.bin/)
 	
 	A flag --watch é opicional para ficar observando as
 	alterações nos arquivos
@@ -22,18 +39,35 @@ Instação Webpack
 --------------------------------------------------------
 
 	-> npm run nomeScript
+	-> npm nomeScript
 
 NPM SCRIPTS
 Permite definirmos uma linha de comando inteira, que será ativada com npm run nomeScript. Não precisamos utilizar o npx aqui.
 
 "scripts": {
-  "dev": "webpack --mode development --watch --entry ./js/app.js -o ./js",
-  "build": "webpack --mode production --entry ./js/app.js -o ./js"
+  "dev": "webpack --mode development --watch ./js/app.js -o ./js",
+  "build": "webpack --mode production ./js/app.js -o ./js"
 },	
 
+
+# Atualização Scripts
+ "scripts": {
+    "start": "webpack serve --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  
+  O nome Start é um padrão onde não precisa colocar o Run antes
+  ficando assim:
+  -> npm start
+  
+  Para o (build) deve colocar o run antes, assim:
+  -> npm run build
+  
+  
+  
 ----------------------------------------------
 
 Observação:
 No modo de desenvolvimento você consegue ver erros no código.
-No modo de produção fica impossivel ver onde esta o erro.
+No modo de produção fica impossível ver onde esta o erro.
 	

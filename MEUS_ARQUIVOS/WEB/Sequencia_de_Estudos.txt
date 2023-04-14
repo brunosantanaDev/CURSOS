@@ -1,14 +1,28 @@
-Ok 	- Javascript
-Ini - React
-	- Bootstrap
-	- Next
-	- Redux(Context API)
-	- Sass(relembrar)
-	
-	- SQL
-	- Node
-	- Vue
+	HTML
+	CSS
+	SASS
+	Javascript
 
+	- React (108 aulas - 5 aulas/dia - 21 dias)
+	- TypeScript (74 aulas - 5 aulas/dia - 14)
+	- Next
+	- Bootstrap (23 aulas - 4 aulas/dia - 5 dias)
+	
+	
+
+	- Node(196 aulas - 6 aulas/dia - 30 dias)
+	- AdonisJs
+	
+
+	
+	- Redux(Context API) react
+	
+	- Sass(relembrar)
+	- Scrum
+	- AWS 
+	- Vue
+	- PHP(25 dias) 10 aulas/dia (250)
+	
 
 - Javascript
 	voltar Mod(EfeitoDom , Objetos, Regex)
@@ -17,19 +31,23 @@ Ini - React
 - Explorer
 
 
+- React 
+	3 aulas p/dia
+	108 aulas (3 aulas por dia - 36 dias) Origamid
+	(Ao terminar estudar react da B7Web)
 
-3 aulas p/dia
-- React - 108 aulas (3 aulas por dia - 36 dias) Origamid
-(Ao terminar estudar react da B7Web)
 
-
-4 Aulas p/dia
-- Typescript 74 aulas (4 aulas p/dias - 18 dias)
+- Typescript
+	4 Aulas p/dia
+	Origamid = 74 aulas (5 aulas p/dias - 14 dias)
+	B7Web 	 = 29 aulas (5 aulas p/dias = 5 dias) 
 
 
 - SQL (MONGO DB OU MYSQL)
 
-- Node 196 aulas (6 aulas p/ dia - 40 dias) B7Web
+- PHP 25 dias (10 aulas p/ dia)
+
+- Node 196 aulas (6 aulas p/ dia - 30 dias) B7Web
 	(Ao terminar estudar Node Matheus Batisti)
 	
 	

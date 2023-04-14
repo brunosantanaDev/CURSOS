@@ -3,14 +3,15 @@
  git config --global user.name "Bruno Santana"
 
 git init
-git status
-touch .gitignore
-git add . ou -A
-git commit -m "desc"
-git push
-git branch
-
 git remote add origin <URL>
+git status
+git add . ou -A ou *
+git commit -m "descrição"
+git push -u origin master /  git push --set-upstream origin feature1.
+git push
+touch .gitignore
+
+
 git remote remove origin <URL>
 
 git remote -v
@@ -20,15 +21,18 @@ git log/reflog
 git clone <url repositorio>
 git reset --hard <id commit>
 
-git merge <nome branch temporaria> 				/OBS: Voltar p/ branch principal.
-git checkout <nome_branch> / mudar branch
+
+git branch 									/ Mostra todas branch
+
+git checkout <nome_branch> 					/ mudar branch
 
 git branch <nome_branch> 							/ cria nova branch
-git checkout -b <nome_branch> 						/ cria nova branch
+git checkout -b <nome_branch> 				/ cria e muda de branch 
 
 git checkout -d 									/ deleta branch
 git checkout -m <nome_branch_atual> <nomeNovo> 		/ renomear branch
 
+git merge <nome branch temporaria> 			/OBS: Voltar p/ branch principal.
 
 
 

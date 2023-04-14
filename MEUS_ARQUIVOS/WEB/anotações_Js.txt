@@ -1,4 +1,26 @@
 
+
+ 
+Pesquisar o uso do bind dentro de classes
+	bind, call, applay
+ 
+Pesquisar
+	estrutura do ES5 e ES6 
+
+Pesquisar	
+Operadores Unario
+
+
+
+
+
+##########################################
+		Livro Eloquente JS
+###########################################
+https://github.com/braziljs/eloquente-javascript
+
+
+
 ##########################################
 #######		Pegar Valor Na URL	   #######
 ##########################################
@@ -24,6 +46,9 @@ const pessoa = {
 const {nome, idade, logradouro: rua} = pessoa;
 
 
+Comentarios no codigo
+Linhas = Alt + Shif + A
+1 Linha Ctrl + ;
 
 
 ###################################
@@ -57,8 +82,14 @@ event.target.tagName
 
 
 ###################################
-#######			#######
+#######		Try e Catch	#######
 ###################################
+
+Com Async Await o catch é uma função e recebe um parametro
+	catch(erro){}
+	
+Com o Then o cacth é um método e recebe uma callback error
+o catch((error)=>{error}); 
 
 
 

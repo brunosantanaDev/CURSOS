@@ -1,0 +1,7 @@
+Comentarios no codigo
+	Linhas = Alt + Shif + A
+	1 Linha Ct
+
+######################################
+######		Anotações React		######
+######################################

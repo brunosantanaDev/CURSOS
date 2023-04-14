@@ -1,8 +1,8 @@
 {
     "editor.fontFamily": "IBM Plex Mono, Monaco, Courier New, monospace",
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.lineHeight": 25,
-    "editor.tabSize": 2,
+    "editor.tabSize": 2,      
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint":true
     },

@@ -3,14 +3,23 @@ https://www.brasilcode.com.br/10-melhores-livros-javascript-para-desenvolvedores
 
 	Lógica de Programação com JavaScript: https://amzn.to/3Rfn1OL
 	
+	
 	Estruturas de Dados com JavaScript: 
 	https://amzn.to/3WPIkHD
+	
 	
 	Use a Cabeça Programação JavaScript
 	https://amzn.to/3e3NT1u
 	
+	
 	Padroes JavaScript
 	https://amzn.to/3IWmUmB
+	
+	
+	
+- Segredos do Ninja Javascript		
+	https://www.amazon.com.br/Segredos-Ninja-Javascript-John-Resig/dp/8575223283/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=119XE873Y5E5C&keywords=Segredos+do+Ninja+Javascript&qid=1681203748&s=books&sprefix=segredos+do+ninja+javascript%2Cstripbooks%2C449&sr=1-1
+	
 	
 	Aprendendo Node: Usando JavaScript no Servidor: https://amzn.to/3wypAlw
 	Construindo Aplicações com NodeJS: https://amzn.to/3kOHduJ

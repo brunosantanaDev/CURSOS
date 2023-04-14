@@ -32,7 +32,7 @@ Ex: /^[a-z]/g - ele ira negar todas as letras de a a z minusculo
 \
 Caracteres especiais como o ponto ., podem ser escapados utilizando 
 a barra \, assim este não terá mais a sua função especial e será 
-tratado como literal. Lista de caracteres especiais: +*?^$\.[]{}()|/
+tratado como literal. Lista de caracteres especiais: + * ? ^ $ \ . [ ] { } ( ) | /
 
 
 \w 
@@ -63,7 +63,7 @@ tudo que não é espaço, tab e quebra de linha, ou seja, letras e numeros, pont
 
 
 {}  -  Quantificador
-determina a quantidade de caracter você deseja selecoanar 
+determina a quantidade de caracter você deseja selecionar 
 Ex: "Vaiiiii" -> /i{3}/g ou /i{2,4}/g ou apartir i{2,}
 Ou seja seleciona o primeiro i e mais 3 apos o primeiro.
 
@@ -107,6 +107,7 @@ Com o $ é possível informar que a busca deve ser iniciada no final da linha.
 
 Flag m - multiplay
  A flag multiplay permite selecionar varias linhas
+ /\w/gm
 
 
 \n Line feed
@@ -130,7 +131,7 @@ Ex: /\u00A9/g
 $&
 -> esse simbolo faz referencia a seleção no regex
 Ex: /java/g 
-$& = java
+    $& = java
 
 
 () - Grupo de captura
@@ -151,7 +152,7 @@ const regexp = /\d(?=px)/g;
 Negação
 const regexp = /\d(?!px)/g;
 
-?<=<
+?<=
 Positive Lookbehind
 /(?<=<\/)[\w]+/g
 

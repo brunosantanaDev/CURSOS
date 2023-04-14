@@ -1,15 +1,20 @@
+Comentarios no codigo
+	Linhas = Alt + Shif + A
+	1 Linha Ctrl + ;
+
 
 # Iniciar o NPM no projeto
-	-> npm init
+	-> npm init (faz perguntas)
+	-> npm init -y (confirma todas as perguntas)
 	
-	(gera o arquivo package.json, nesse arquivo é onde são instaladas as dependecias como jquery, lodash, typescript, eslint)
+	(gera o arquivo package.json, nesse arquivo é onde são instaladas as dependecias como jquery, lodash, typescript, eslint, react)
 
 -------------------------------------------------------------------------------------------------
 
 # Instalar PACOTE
 	-> npm install 
 	
-	(Caso ja exista o arquivo package.json, esse comando vai instalar todas as dependecias que estiverem definidas nele)
+	(Caso ja exista o arquivo package.json, esse comando vai instalar todas as dependências que estiverem definidas nele)
 	
 -------------------------------------------------------------------------------------------------
 

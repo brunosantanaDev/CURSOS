@@ -1,19 +1,17 @@
 Modulo Efeitos no Dom
 
-Modulo Objetos
+Modulo de Objetos
 
 Expressões regulares
 (str.match(reg), reg.exec(str), reg.test(str))
 
 Modulo 6 - Aula History API
 
-Clousure
-
-Debuggin
-
+Pesquisar na Web
 	Eslint
 	Webpack
 	Babel
-
+	Clousure
+	Debuggin
 
 Testa o this dentro da Class (Aula Validar CPF)
