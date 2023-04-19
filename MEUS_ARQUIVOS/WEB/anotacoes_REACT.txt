@@ -22,6 +22,16 @@ Instalação do Babel para react
 	-> npm install @babel/core @babel/preset-react babel-loader --save-dev
 	
 	
+	
+	Para simplificar a criação do ambiente de desenvolvimento do react
+	Podemos usar um app create react app para facilitar.
+	acesse: https://create-react-app.dev/docs/getting-started
+	
+	-> npx create-react-app my-app
+	-> cd my-app
+	-> npm start
+	
+	
 
 
 

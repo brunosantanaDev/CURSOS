@@ -94,14 +94,25 @@ o catch((error)=>{error});
 
 
 ###################################
-#######			#######
+#######		Efeito Zoom	###########
 ###################################
+https://www.youtube.com/watch?v=q_Blpa_2Z24&ab_channel=DankiCode
 
 
 
 ###################################
-#######			#######
+#######		Praticar JS		#######
 ###################################
+Sites citados:
+https://flexboxfroggy.com
+https://www.w3schools.com/css/css_exercises.asp
+https://www.codewell.cc/challenges
+https://www.frontendmentor.io/challenges
+https://devchallenges.io
+https://br.pinterest.com
+https://www.youtube.com/watch?v=RacwEvoTz_Y&list=PLDgemkIT111AzoS1rB61sgMJbsEA4pyD2
+https://www.beecrowd.com.br/judge/en/categories
+https://www.codewars.com/join?language=javascript
 
 
 

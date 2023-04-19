@@ -12,10 +12,11 @@
 	- Context API
 	- O que é noções sobre componentização react
 	- Otimização de páginas web para SEO
-	- 
-	- 
-	- 
-	- 
+	
+	- Boas Praticas
+	- Codigo limpo
+	- Semantica
+	- Acessibilidade
 	- 
 	- 
 	- 

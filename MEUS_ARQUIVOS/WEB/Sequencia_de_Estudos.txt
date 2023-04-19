@@ -5,12 +5,14 @@
 
 	- React (108 aulas - 5 aulas/dia - 21 dias)
 	- TypeScript (74 aulas - 5 aulas/dia - 14)
+	
 	- Next
+	
 	- Bootstrap (23 aulas - 4 aulas/dia - 5 dias)
 	
-	
-
+	- SQL
 	- Node(196 aulas - 6 aulas/dia - 30 dias)
+	
 	- AdonisJs
 	
 

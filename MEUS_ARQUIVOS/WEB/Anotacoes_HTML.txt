@@ -5,3 +5,13 @@ Parametro
 	-> progress
 	-> aria-expanded="false" 
 	-> aria-controls="menu"
+	
+	-> translate="no"
+	
+	
+	
+	##############
+		CSS
+	##############
+	transform-origin
+	object-fit
