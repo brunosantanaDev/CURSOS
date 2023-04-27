@@ -69,13 +69,9 @@ nomeCompleto('Bruno', 32, '13985359741')
 
 
 ###################################
-#######			Eventos		#######
+#######		 		#######
 ###################################
 
-No evento vovê pode pegar o nome da TAg
-Pelo atruibuto target
-
-event.target.tagName
 
 
 
@@ -120,17 +116,68 @@ https://www.codewars.com/join?language=javascript
 #######			#######
 ###################################
 
+Array.shift()
+Array.unshift()
+Array.pop()
+Array.push()
+
+Array.slice()
+Array.splice()
+Array.delete()
+Array.chArt()
+
+Array.reverse()
+Array.sort()
 
 
 ###################################
 #######			#######
 ###################################
 
+Array.forEach()
+Array.map()
+Array.filter()
+Array.some()
+Array.reduce()
+Array.every()
+Array.find()
+Array.findIndex()
+
+Array.join()
+
+str.split()
+str.indexOf()
+str.includes()
+
+for in
+	-> for(pro in obj){}
+	
+for of
+	-> for(item of array){}
+	
+
+
+Object.keys()
+Object.values()	
+Object.entries()
+
+
+
+
+
+###################################
+#######		Eventos			#######
+###################################
+
+No evento você pode pegar o nome da Tag
+Pelo atruibuto target
+
+event.target.tagName
 
 
 
 popstate = Evento do window
-	-> window.addEventListener("popstate",(url)=>{
+	-> window.addEventListener("popstate",(url) => {
 		window.history.pushState(null, null, url)
 	   })
    
