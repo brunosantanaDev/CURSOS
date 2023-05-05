@@ -29,7 +29,7 @@ git checkout <nome_branch> 					/ mudar branch
 git branch <nome_branch> 							/ cria nova branch
 git checkout -b <nome_branch> 				/ cria e muda de branch 
 
-git checkout -d 									/ deleta branch
+git checkout -d <nome_branch>						/ deleta branch
 git checkout -m <nome_branch_atual> <nomeNovo> 		/ renomear branch
 
 git merge <nome branch temporaria> 			/OBS: Voltar p/ branch principal.
