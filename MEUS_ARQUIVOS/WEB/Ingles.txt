@@ -1,4 +1,4 @@
-have = ter		-> reeve
+have = ter		-> reéve
 only = apenas	-> onli
 
 that = que, esse(a), isso, aquilo(ea), o que

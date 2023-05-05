@@ -1,6 +1,6 @@
 Comentarios no codigo
 	Linhas = Alt + Shif + A
-	1 Linha Ct
+	1 Linha Ctrl + ;
 
 
 

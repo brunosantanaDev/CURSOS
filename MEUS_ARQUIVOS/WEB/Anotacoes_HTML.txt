@@ -7,7 +7,7 @@ Parametro
 	-> aria-controls="menu"
 	
 	-> translate="no"
-	
+	-> contenteditable="true" -> (editar texto da div)
 	
 	
 	##############

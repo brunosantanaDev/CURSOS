@@ -3,27 +3,24 @@
 	SASS
 	Javascript
 
+
+	- PHP(230 aulas - 7 aulas/dia - 30 dias)
+	- SQL
 	- React (108 aulas - 5 aulas/dia - 21 dias)
-	- TypeScript (74 aulas - 5 aulas/dia - 14)
+	- TypeScript -> B7Web = 29 aulas (5 aulas p/dias = 5 dias) 
 	
 	- Next
-	
 	- Bootstrap (23 aulas - 4 aulas/dia - 5 dias)
-	
-	- SQL
-	- Node(196 aulas - 6 aulas/dia - 30 dias)
-	
+		
 	- AdonisJs
-	
-
-	
+		
 	- Redux(Context API) react
 	
 	- Sass(relembrar)
 	- Scrum
 	- AWS 
 	- Vue
-	- PHP(25 dias) 10 aulas/dia (250)
+	- Node(25 dias) 6 aulas/dia (196)
 	
 
 - Javascript

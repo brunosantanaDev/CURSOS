@@ -1,4 +1,7 @@
-
+Comentarios no codigo
+Linhas = Alt + Shif + A
+1 Linha Ctrl + ;
+-----------------------------------------------------
 
  
 Pesquisar o uso do bind dentro de classes
@@ -46,10 +49,6 @@ const pessoa = {
 const {nome, idade, logradouro: rua} = pessoa;
 
 
-Comentarios no codigo
-Linhas = Alt + Shif + A
-1 Linha Ctrl + ;
-
 
 ###################################
 #######		Rest e Spread	#######
@@ -69,10 +68,26 @@ nomeCompleto('Bruno', 32, '13985359741')
 
 
 ###################################
-#######		 		#######
+#######	Distancia e Dimenção ######
 ###################################
 
+el.getBoudingClientRect() //top, width, height, x, y
 
+el.offsetWidth
+el.offsetHeight
+
+el.scrollHeight
+el.scrollWidth
+
+
+###################################
+#######			Windows		 ######
+###################################
+
+window.innerHeight
+window.innerWidth
+window.outterWidth
+window.outterHeight
 
 
 
@@ -113,8 +128,104 @@ https://www.codewars.com/join?language=javascript
 
 
 ###################################
-#######			#######
+#######	  Covert for Array  #######
 ###################################
+
+		var = HTMLCollection
+	-> Array.from(var) // Array
+
+
+###################################
+#######	   Method String	#######
+###################################
+
+str.trim()
+str.trimEnd()
+str.trinStart()
+str.replace("","")
+str.split("")
+
+Str.split()
+str.indexOf()
+str.includes()
+str.valueOf()
+
+
+el.innerText // get e set =
+el.contentText // get e set = 
+el.innerHTML // get e set =
+el.outerHTML // get e set =
+
+###################################
+#######	    Methos Number   #######
+###################################
+
+Math.PI()
+Math.floor()
+Math.ceil()
+Math.random()
+Math.round()
+Math.abs()
+Math.trunc()
+
+num.toFixed(2)
+
+Number.parseInt()
+Number.parseFloat()
+
+-> Converte string para Numero
+	Number(var) - constructor
+
+Num.toLocaleString("BRL",{style: 'currrency', currency: 'BRL'})
+
+
+
+
+###################################
+#######	 Class e Attribute  #######
+###################################
+
+el.attributes
+el.attribute.class - .value
+el.attribute['data-menu']
+el.setAttribute("href","http://")
+el.removeAttribute("nomeAttr")
+el.hasAttribute("attr")
+
+el.classList.add("nomeClass")
+el.classList.remove("nomeClass")
+el.classList.toggle("nomeClass")
+
+el.classList.contains("nomeClass")
+el.contains(child) -> verifica se um elemnto existe dentro do el pai
+
+getComputerStyle(el).css
+
+
+
+
+################################################
+#######	 	Transversing e Manipulação   #######
+################################################
+
+el.parent
+el.parentElement
+el.nextElementSibling
+el.previusElementSibling
+el.replaceChild("novo","filho")
+el.removeChild(filho)
+elPai.insertBefore("novo","filho")
+el.append()
+el.prepend()
+el.closest()
+
+
+
+###################################
+#######		Method Array	#######
+###################################
+
+
 
 Array.shift()
 Array.unshift()
@@ -122,35 +233,32 @@ Array.pop()
 Array.push()
 
 Array.slice()
-Array.splice()
+Array.splice(index, qt)
 Array.delete()
 Array.chArt()
 
 Array.reverse()
 Array.sort()
 
-
-###################################
-#######			#######
-###################################
-
 Array.forEach()
 Array.map()
 Array.filter()
 Array.some()
-Array.reduce()
+Array.reduce((acc, item)=>{}, 0)
 Array.every()
 Array.find()
 Array.findIndex()
+Array.flat()
+Array.flatMap()
 
 Array.join()
 
-str.split()
-str.indexOf()
-str.includes()
+Str.split()
+Array.indexOf()
+Array.includes()
 
 for in
-	-> for(pro in obj){}
+	-> for(prop in obj){}
 	
 for of
 	-> for(item of array){}
@@ -162,7 +270,35 @@ Object.values()
 Object.entries()
 
 
+Propriedades elementos
 
+el.firstChild
+el.firstElementChild
+
+
+
+
+
+
+
+
+
+
+###################################
+#######	  URLSeachParams	#######
+https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+###################################
+
+	new 
+	URLSeachParams(window.locatin.seach)
+	URLSeachParams.get("nomeParams")
+	URLSeachParams.toString()
+	URLSeachParams.has("")
+	URLSeachParams.keys() - interavel
+	URLSeachParams.forEach()
+	URLSeachParams.delete("")
+	URLSeachParams.set("","")
+	URLSeachParams.append("","")
 
 
 ###################################
@@ -170,10 +306,10 @@ Object.entries()
 ###################################
 
 No evento você pode pegar o nome da Tag
-Pelo atruibuto target
+Pelo atruibuto event.target
 
 event.target.tagName
-
+tagName -> propriedade de evento de clique
 
 
 popstate = Evento do window
@@ -191,6 +327,20 @@ window.history.pushState(null, null, url)
 
 
 
+###################################
+#######   Mutation Observe  #######
+###################################
+
+	function (mutationTarget){
+		const verify = mutationtarget[0].target.classList.constains('ativo')
+		if(verify){
+			ativarAnimacao()
+		}
+	}
+
+	const elTarget = document.querySelector(".class")
+	observer = new MutationObserver(handleMutation);
+	observer.observe(elTarget, { attribute: true });
 
 
 
