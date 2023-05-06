@@ -221,11 +221,12 @@ el.closest()
 
 
 
+
+
+
 ###################################
 #######		Method Array	#######
 ###################################
-
-
 
 Array.shift()
 Array.unshift()
@@ -278,6 +279,23 @@ el.firstElementChild
 
 
 
+
+###################################
+#######		Date Object		#######
+###################################
+
+var = new Date();
+var.getTime()
+var.getDay() -> seg, ter, qua, qui, sex
+
+var.getDate()
+var.getMonth
+var.getFullYear()
+
+var.getHours()
+var.getMinutes()
+var.getSeconds()
+var.getMiliseconds
 
 
 
