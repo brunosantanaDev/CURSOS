@@ -1,7 +1,7 @@
 import AnimaNumeros from "./anima-numeros.js";
 
 function fetchAnimais(url, target) {
-  function createAnimal({ especie, total }) {
+  function createHtmlAnimal({ especie, total }) {
     const div = document.createElement("div");
     div.classList.add("numero-animal");
     div.innerHTML = `<h3>${especie}</h3><span data-numero>${total}</span>`;
@@ -9,8 +9,9 @@ function fetchAnimais(url, target) {
   }
   
   const numerosGrid = document.querySelector(target);
-  function preencherAnimais(animal){
-    const divAnimal = createAnimal(animal);
+  
+  function fillDisplayAnimals(animal){
+    const divAnimal = createHtmlAnimal(animal);
     numerosGrid.append(divAnimal);
   }
 
@@ -23,13 +24,13 @@ function fetchAnimais(url, target) {
     try{
       const animaisResponse = await fetch(url);
       const animaisJson = await animaisResponse.json();
-      animaisJson.forEach(animal => preencherAnimais(animal));
-      animaAnimaisNumeros()
+      animaisJson.forEach(animal => fillDisplayAnimals(animal));
+      animaAnimaisNumeros();
     }catch(erro){
       console.log(erro, "Erro na requisição");
     }
   }
-
+  
   return criarAnimais();
 }
 

@@ -40,4 +40,4 @@ Operador de Empilhadeira - SENAI
 Habilitação(CNH) Categoria B – DETRAN
 
 Informática:
-Windows, Word, Photoshop, Corel Draw, Wordpress, HTML, CSS, Sass, JavaScript, Typescript, React, Node
+Windows, Word, Photoshop, Corel Draw, Wordpress, HTML, CSS, Sass, JavaScript, Typescript, React

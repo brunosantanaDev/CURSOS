@@ -1,4 +1,4 @@
-export default function dateObject() {
+export default function funcionamento() {
   const funcionamento = document.querySelector("[data-semana]");
   const diasSemanaHtml = funcionamento.dataset.semana.split(",").map(Number);
   const horarioSemanaHtml = funcionamento.dataset.horario.split(",").map(Number);

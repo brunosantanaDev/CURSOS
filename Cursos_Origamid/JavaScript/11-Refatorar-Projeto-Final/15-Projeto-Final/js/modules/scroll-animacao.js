@@ -1,15 +1,16 @@
 export default class AnimaScroll{
-  constructor(target){
-    this.sections = document.querySelectorAll(target);
+  constructor(secions){
+    this.sections = Array.from(document.querySelectorAll(secions));
     this.windowMetade = window.innerHeight * 0.6;
     this.animaScroll = this.animaScroll.bind(this);
+    this.active = "ativo";
   }
 
   verifyDisplay(section, metadeTela){
     if (metadeTela) {
-      section.classList.add("ativo");
-    } else if (section.classList.contains("ativo")) {
-      section.classList.remove("ativo");
+      section.classList.add(this.active);
+    } else if (section.classList.contains(this.active)) {
+      section.classList.remove(this.active);
     }
   }
 
@@ -26,7 +27,6 @@ export default class AnimaScroll{
       this.animaScroll();
       window.addEventListener("scroll", this.animaScroll);
     }
-    const data = new Date('2023-12-17T03:24:00');;
     return this;
   }
 }
