@@ -156,6 +156,9 @@ el.contentText // get e set =
 el.innerHTML // get e set =
 el.outerHTML // get e set =
 
+
+
+
 ###################################
 #######	    Methos Number   #######
 ###################################
@@ -190,15 +193,16 @@ el.attributes[0]
 el.attribute.class - .value
 el.attribute['data-menu']
 el.setAttribute("href","http://")
-el.removeAttribute("nomeAttr")
-el.hasAttribute("attr")
+el.getAttribute("href")
+el.removeAttribute("href")
+el.hasAttribute("href") true ou false(testar)
 
 el.classList.add("nomeClass")
 el.classList.remove("nomeClass")
 el.classList.toggle("nomeClass")
 
 el.classList.contains("nomeClass")
-el.contains(child) -> verifica se um elemnto existe dentro do el pai
+el.contains(child) -> verifica se um elemento existe dentro do el pai
 
 getComputerStyle(el).css
 
@@ -215,6 +219,7 @@ el.nextElementSibling
 el.previusElementSibling
 el.replaceChild("novo","filho")
 el.removeChild(filho)
+el.remove()
 elPai.insertBefore("novo","filho")
 el.append()
 el.prepend()
@@ -223,7 +228,7 @@ el.closest()
 
 Propriedades elementos
 
-el.firstChtild
+el.firstChild
 el.firstElemenChild
 
 
@@ -308,10 +313,13 @@ var.getMiliseconds
 
 
 #### Set Date ####
+
+var
+
 var.getDay() -> seg, ter, qua, qui, sex
 
 var.setDate()
-var.setMonth
+var.setMonth()
 var.setFullYear()
 
 var.setHours()
