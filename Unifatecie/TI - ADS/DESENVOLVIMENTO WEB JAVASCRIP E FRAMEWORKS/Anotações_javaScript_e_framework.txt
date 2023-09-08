@@ -1,0 +1,112 @@
+
+
+UNIDADE I - A Base do Desenvolvimento Web com Javascript
+	1. INTRODUÇÃO AO JAVASCRIPT (J
+	
+	2. UM PRIMEIRO SCRIPT
+	
+	3. AVANÇANDO EM JAVASCRIPT
+	
+	4. COMPLETANDO O PRIMEIRO CICLO DE CONCEITOS EM JAVASCRIPT
+		4.1 Tipos de Dados
+
+
+UNIDADE II - Recursos da Linguagem Javascript
+	
+	
+JS também evoluiu para aceitar programação dita multi-paradigma, ou seja, aceita
+a escrita de códigos em diferentes padrões como no tradicional imperativo, no orientado a
+objetos, ou até no declarativo paradigma funcional. 10	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

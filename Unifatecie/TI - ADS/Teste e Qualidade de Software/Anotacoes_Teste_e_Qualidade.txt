@@ -1,0 +1,520 @@
+	# ISO 25010
+		O modelo de qualidade é a pedra angular de um sistema de
+		avaliação da qualidade do produto. O modelo de qualidade
+		determina quais características de qualidade serão levadas
+		em consideração ao avaliar as propriedades de um produto
+		de software .
+		
+	
+	# Atributos Fundamentais de Qualidade
+		Funcionalidade, desempenho, compatibilidade, Usabilidaede, Confiabilidade, Segurança, Manutebilidade, Portabilidade.
+	
+	# Metas da SQA
+		- Qualidade dos requesitos
+		- Qualidade do projeto
+		- Qualidade do código
+		- Eficacia do controle de qualidade
+	
+	
+###########################################################	
+######		UNIDADE 1 - QUALIDADE DE SOFTWARE		 ######
+###########################################################
+
+	1 CONCEITOS FUNDAMENTAIS SOBRE A QUALIDADE DE SOFTWARE 8
+	
+	Em linhas gerais, para Pressman e Maxim(2016):
+	Qualidade de software pode ser definida de como uma gestão de qualidade efetiva aplicada de modo a criar um produto útil que forneça valor mensurável para aqueles que o produzem e para
+	aqueles que o utilizam".
+	
+	Qualidade de software possui várias definições 9
+	
+	De acordo com Zanin et al (2018, p. 12) os "projetos de software contam com vários desafios para entregar o software em perfeito funcionamento, devido a uma série de fatores — em especial, a complexidade".
+	
+	Temos basicamente dois tipos de qualidade: interna e externa
+
+	
+--------------------------------------------------------------------------------------
+
+
+	2 IMPORTÂNCIA DA QUALIDADE DE SOFTWARE NA ENGENHARIA DE SOFTWARE 12
+	
+	3 CONCEITOS SOBRE QUALIDADE, QUALIDADE DE PROCESSOS E QUALIDADE DE PRODUTO 15
+		
+		Segundo Guerra e Colombo (2000, p. 18) a “qualidade” é conformidade com requisitos, e estes devem estar definidos para permitir que sejam gerenciados com o uso de medidas, de forma a reduzir o retrabalho e aumentar a produtividade”. 
+	
+		Podemos definir processo de software como um conjunto de atividades, ações e tarefas que são realizadas na construção de um produto.
+		
+		QUADRO 4 - ATRIBUTOS FUNDAMENTAIS DA QUALIDADE DE PRODUTO. 18
+
+
+--------------------------------------------------------------------------------------
+
+
+	4 PROCESSOS DE GERÊNCIAS DA QUALIDADE DE SOFTWARE	
+		
+		QUADRO 5 - ATIVIDADES DA GERÊNCIA DE SOFTWARE. 21
+		
+		
+		
+		
+	
+	
+###################################################################
+######	 UNIDADE 2 MÉTRICAS DE QUALIDADE DE SOFTWARE E       ######
+######    TÉCNICAS DE GARANTIA DE QUALIDADE DE SOFTWAR 26    ######
+###################################################################
+	
+1 CONCEITOS BÁSICOS SOBRE MÉTRICAS DE QUALIDADE DE SOFTWARE E 
+	  FRAMEWORK PARA MÉTRICAS DE PRODUTOS DE SOFTWARE
+		
+	FIGURA 2 - TIPOS DE MÉTRICAS	
+		
+	FIGURA 1 - DESCRIÇÃO DOS TERMOS.	
+		
+	QUADRO 1 - CONJUNTO DE ATRIBUTOS QUE DEVEM SER ABRANGIDOS POR MÉTRICAS	31
+		
+	Métricas Dinâmicas 32
+	Métricas Estáticas 33
+	
+	QUADRO 2 – ALGUMAS MÉTRICAS ESTÁTICAS.
+	
+	As siglas da palavra HEART significam: Happiness, Engagement, Adoption, 
+	Retention e Task Success
+	
+	QUADRO 3 - EXEMPLO DO FRAMEWORK HEART 34
+	
+
+------------------------------------------------------------------------------
+
+	
+2 MÉTRICAS PARA O MODELO DE REQUISITOS E PARA O MODELO PROJETO 35
+  DE SOFTWARE E REVISÃO DE SOFTWARE	
+	
+	QUADRO 4 – MÉTRICAS PARA O MODELO DE REQUISITOS. 36
+	
+	QUADRO 5 - CARACTERÍSTICAS IMPORTANTES DE UM PROJETO ORIENTADO A OBJETOS.
+	
+
+------------------------------------------------------------------------------
+
+	
+3 CONCEITOS BÁSICOS DA GARANTIA DE QUALIDADE DE SOFTWARE
+
+	SGA - Software Quality Assurance (garantia de qualidade de software)
+	
+	
+------------------------------------------------------------------------------	
+	
+	
+4 ELEMENTOS DA GARANTIA DA QUALIDADE DE SOFTWARE	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+
+
+##################################################################	
+######		UNIDADE 3 - INTRODUÇÃO AO TESTE DE	SOFTWARE 	######
+##################################################################
+
+
+1 CONCEITOS BÁSICOS SOBRE TESTE DE SOFTWARE
+
+	O teste de software:
+	é considerado uma atividade de verificação e validação do software que foi desenvolvido, onde é realizada uma análise dinâmica na execução dele,com o objetivo de verificar a presença de defeitos ou falhas e aumentar a confiança de que ele está correto e de acordo com o que o cliente solicitou.
+	
+	1 CICLO DE VIDA DO TESTE DE SOFTWARE
+		
+	3 TÉCNICAS DE TESTE DE SOFTWARE	
+		
+	4FERRAMENTAS PARA AUTORIZAÇÃO DE TESTE DE SOFTWARE	
+		
+		
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+
+###########################################################	
+######		UNIDADE 4 - 		 ######
+###########################################################	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Qual é a afirmação verdadeira sobre o framework HEART? 
+
+a.As siglas da palavra HEART significam Happiness, Environment, Acceptance, Retaliation e Task Success
+b.HEART não é importante para o sucesso do software
+	-> c.HEART utiliza métricas centradas no usuário para medir a experiência do usuário com o software
+d.HEART é um framework que se concentra apenas em métricas técnicas
+e.HEART foi desenvolvido pela Amazon e pela Apple
+
+
+
+
+
+A garantia da qualidade tem como objetivo fornecer ao pessoal técnico e administrativo os dados necessários sobre a qualidade do produto e, com isso, ganhando entendimento e confiança de que as ações para atingir a qualidade desejada do produto estão funcionando. Esses dados fornecidos são de responsabilidade do gerenciamento, que trata dos problemas e aplica os recursos necessários para resolver os problemas de qualidade (PRESSMAN e MAXIM , 2016).
+
+ De acordo com o texto supracitado assinale verdadeiro (V) ou falso (F):
+
+(  f ) A garantia da qualidade tem como objetivo fornecer dados apenas para o pessoal técnico.
+(  v ) A responsabilidade de fornecer dados sobre a qualidade do produto é do gerenciamento.
+(  f ) A qualidade é atingida apenas por meio da aplicação de métodos de engenharia de software.
+(  v ) A infraestrutura é importante para garantir a qualidade de software.
+
+
+
+
+
+
+Qual é o objetivo principal das revisões técnicas de software de acordo com Pressman e Maxim (2016)?
+
+a.Validar se o software está completamente livre de erros e defeitos
+b.Verificar se os modelos de requisitos e de projeto foram corretamente implementados
+c.Avaliar a qualidade do código fonte após a liberação do software
+	-> d.Encontrar erros durante o processo de desenvolvimento, evitando que se tornem defeitos após a liberação do software
+e.Identificar possíveis melhorias no processo de gerenciamento de qualidade
+
+
+
+
+
+
+Durante a criação de um software sempre haverá elementos qualitativos. E as métricas proporcionam uma base por meio da qual análise, projeto, codificação e teste podem ser conduzidos de forma mais objetiva e avaliados de maneira mais quantitativa. Para você entender melhor sobre métricas, vou apresentar alguns conceitos que serão fundamentais para entender o conteúdo a ser tratado. No contexto da Engenharia de Software poderemos encontrar os termos: medidas, métricas e indicadores.
+
+De acordo com o texto supracitado assinale Verdadeiro (V) ou Falso (F) na opções a seguir:
+
+V, F, F, V, F
+
+(  v ) As métricas proporcionam uma base objetiva para avaliação quantitativa do software.
+(  f ) As medidas e as métricas são termos equivalentes na Engenharia de Software.
+(  f ) Os indicadores são utilizados para coletar dados quantitativos sobre o software.
+(  v ) As métricas são fundamentais para o entendimento do conteúdo a ser tratado em Engenharia de Software.
+(  f ) As métricas são úteis apenas durante a fase de codificação do software.
+
+
+
+
+
+Qual é a definição de software "bom o suficiente" de acordo com Pressman e Maxim (2016)?
+	
+a.Um software que fornece funções e características de alta qualidade que os usuários desejam, mas que só funciona para empresas de grande porte
+	-> b.Um software que fornece funções e características de alta qualidade que os usuários desejam, mas também fornece outras funções e características
+c.Um software que fornece apenas as funções básicas que os usuários precisam
+d.Um software que fornece funções de alta qualidade, mas com baixo desempenho
+e.Um software que fornece funções e características de alta qualidade que os usuários desejam, mas que contém muitos erros
+
+
+
+
+
+
+Qual é a definição de processo de software e por que é importante aplicar a qualidade no processo de desenvolvimento de software?
+
+R: O processo de software pode ser definido como um conjunto de atividades, ações e tarefas que são realizadas na construção de um produto ou serviço de software. É importante aplicar a qualidade no processo de desenvolvimento de software porque isso leva a um aumento da qualidade do produto ou serviço e também a uma redução do retrabalho, o que leva a uma diminuição do tempo de desenvolvimento e mais produtividade
+
+
+
+
+
+Quais são os atributos fundamentais de qualidade do produto de software de acordo com o Padrão ISO/IEC 9126?
+	a. Funcionalidade, Confiabilidade, Usabilidade, Eficiência, Manutenibilidade e Portabilidade
+
+
+
+
+Quando falamos sobre qualidade temos uma das normas que é a NBR ISO 900. O que essa norma nos diz?
+	R:Que a qualidade é “o grau no qual um conjunto de características inerentes satisfaz aos requisitos”.
+
+
+
+
+
+
+
+
+
+Podemos trabalhar com as métricas em todas as fases do ciclo de desenvolvimento do software. Algumas atingem níveis fáceis de usar e compreender e outras de níveis mais difíceis, dependendo de como são aplicadas. Na fase de levantamento de requisitos, as métricas de produto proporcionam informações sobre a qualidade do modelo de análise (PRESSMAN e MAXIM, 2016).
+
+O modelo de requisitos é onde os requisitos são formulados e onde se estabelece a base para o projeto de software.
+
+Uma das métricas usadas é a baseada em função. Ela é utilizada para medir a funcionalidade que o sistema irá fornecer, podendo ser empregadas para estimar um custo ou trabalho, para projetar, para codificar e testar um determinado software. Elas ajudam a prever o número de erros que podem ser encontrados durante um teste e a prever o número de componentes ou linhas projetadas do sistema (PRESSMAN e MAXIM, 2016).
+
+Outra métrica usada é por Pontos de função, que são derivadas de medidas que são calculadas por valores de domínio de informações, que são definidos em diversas formas
+
+
+
+F, V, F, V, V
+
+(  ) As métricas só são aplicadas na fase de levantamento de requisitos do software.
+(   ) As métricas de produto proporcionam informações sobre a qualidade do modelo de análise.
+(   ) A métrica baseada em função é utilizada apenas para medir a funcionalidade que o sistema irá fornecer.
+(   ) As métricas ajudam a prever o número de erros que podem ser encontrados durante um teste e a prever o número de componentes ou linhas projetadas do sistema.
+(   ) Os Pontos de função são derivados de medidas que são calculadas por valores de domínio de informações, que são definidos em diversas formas
+
+
+
+
+
+
+
+
+
+O objetivo da garantia da qualidade de software é fazer com que o sistema seja entregue ao cliente com qualidade e com valor de negócio, e que o processo de verificação dessa qualidade seja conduzido de forma organizada e bem documentada.
+
+É considerado um bom processo de garantia de qualidade quando existe uma relação, onde realiza-se uma etapa de garantia da qualidade de software para cada etapa de desenvolvimento.
+
+A garantia da qualidade tem alguns papéis fundamentais que devem ser considerados. Quais são esses papéis?
+
+R: 
+- Ajuda a estabelecer processos; 
+- Determina programas de medida para avaliar processos; 
+- Procura identificar as fraquezas de medida para avaliar processos; 
+- É uma responsabilidade de gerenciamento; Está relacionada com todos os produtos que serão    	
+  gerados por um processo; 
+- Avalia se o controle de qualidade está funcionando
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+Já parou para pensar que qualquer empresa corre riscos todos os dias, se em algum momento seus computadores e sistemas pararem de funcionar ou um site fora do ar? Tudo isso pode trazer muitos prejuízos para ela.
+
+Para uma empresa, temos o risco relacionado à dependência de equipamentos e também da ocorrência de erros de software. Hoje, devido a esses problemas que podem surgir, as empresas passaram a investir para evitar riscos de defeitos em seus softwares, criando planos de contingência para contornar os problemas (PRESSMAN; MAXIM, 2016).
+
+Nem sempre podemos aliar um risco a uma perda, pois um risco pode estar sempre presente, mas nem sempre gera uma perda. Existem riscos que sempre se transformam em perdas, por exemplo, um avião sempre corre risco de cair, mas a perda só existirá se isso ocorrer. Ou seja, o risco é uma probabilidade de ocorrência de uma perda para a empresa (RIOS, 2013).
+
+De acordo com o texto, responda com Verdadeiro (V) ou Falso (F) as seguintes afirmações:
+
+V, F, V, V, F.
+( v ) As empresas passaram a investir em planos de contingência para evitar riscos de defeitos em seus softwares.
+( f ) A ocorrência de riscos sempre leva a uma perda para a empresa.
+( v ) A dependência de equipamentos é um dos riscos que as empresas enfrentam.
+( v ) Um avião corre risco de cair, mas a perda só existirá se isso ocorrer.
+( f ) Os softwares não representam riscos para as empresas.
+
+ 
+
+
+
+
+
+
+O primeiro objetivo do processo de teste leva ao teste de validação, espera-se que o sistema execute corretamente usando determinado conjunto de casos de testes que reﬂetem o uso esperado do sistema. Já o segundo objetivo leva a testes de defeitos, os casos são projetados para expor os defeitos. Resumindo, quando se executa os testes de validação, encontram-se defeitos no sistema; quando se executa os testes de defeitos, alguns dos testes mostraram que o programa corresponde a seus requisitos (SOMMERVILLE, 2011).
+
+Um processo de teste de software procura estruturar as etapas, as atividades, os artefatos, os papéis e as responsabilidades do teste, com isso permite que a empresa controle todo o ciclo do teste, minimizando os riscos, agregando valor e garantindo qualidade ao software (DELAMARO, 2016).
+
+Antes de pensar na ideia de um processo de testes de software, as empresas desenvolvedoras precisam entender que em primeiro lugar, quando se realiza um teste temos todas as atividades envolvidas antes, durante e após a execução dele, ou seja, a busca por erros e defeitos em um sistema é uma das várias fases que abrange o processo.
+
+De acordo com o texto supracitado responda qual das afirmações abaixo é verdadeira.
+
+a.O primeiro objetivo do processo de teste leva ao teste de defeitos.
+b.Testes de defeitos são usados para verificar se o sistema executa corretamente.
+c.Um processo de teste de software não ajuda a empresa a controlar o ciclo do teste e minimizar os riscos.
+d.A busca por erros e defeitos em um sistema é a única fase do processo de teste de software.
+	-> e.Testes de validação são projetados para expor defeitos no sistema.
+
+
+
+
+
+
+
+Qual a definição de teste de software apresentada por Delamaro (2016)?
+
+	-> a.Teste de software é uma atividade dinâmica e seu intuito é executar o programa ou modelo utilizando algumas entradas em particular e verificar se seu comportamento está de acordo com o esperado
+
+b.Teste é um conjunto de atividades que podem ser planejadas com antecedência e executadas sistematicamente
+
+c.Teste é verificar se o software está fazendo o que deveria fazer, de acordo com seus requisitos, 
+e não está fazendo o que não deveria fazer
+
+d.Teste de software é uma atividade de verificação e validação do software que foi desenvolvido, onde é realizada uma análise dinâmica na execução dele
+
+e.Teste é uma atividade destinada a mostrar que um programa faz o que é proposto a fazer e para descobrir os defeitos do programa antes do uso
+
+
+
+
+
+
+
+
+
+O ideal é trabalhar em ambientes de teste isolados, ou seja, que não sofram influências externas durante os testes. É difícil determinar os testes relacionados ao ambiente de produção, pois vai depender de alguns fatores, como: o tamanho do projeto, o orçamento disponível e cronograma.
+
+Durante o planejamento do processo de teste de software é definido três tipos de ambiente:
+
+Ambiente de Desenvolvimento:
+Ambiente de Testes:
+Ambiente de Produção:
+Analise as afirmativas a seguir:
+
+
+I. O ideal é trabalhar em ambientes de teste isolados, ou seja, que não sofram influências externas durante os testes.
+
+II. Durante o planejamento do processo de teste de software é definido três tipos de ambiente: Ambiente de Desenvolvimento, Ambiente de Testes e Ambiente de Produção.
+
+III. O ambiente de produção é onde são realizados os testes unitários e os de integração.
+
+
+A partir das afirmativas apresentadas, é correto afirmar que:
+
+a.Apenas a afirmativa I é verdadeira.
+b.Apenas as afirmativas II e III são verdadeiras.
+c.Apenas a afirmativa II é verdadeira.
+	-> d.Apenas as afirmativas I e II são verdadeiras.
+e.Todas as afirmativas são verdadeiras .
+
+
+
+
+
+
+
+Qual é o objetivo do teste de software no processo de desenvolvimento?
+	R: Encontrar erros e falhas no software e corrigi-los
+
+
+
+
+
+Qual é a importância de uma estratégia sistemática para o teste de software, de acordo com Pressman e Maxim?
+	R: Evitar perda de tempo, esforços desnecessários e a não detecção de erros
+
+
+
+
+
+
+Qual é a etapa do Ciclo de Vida de Teste de Software em que são elaboradas as estratégias de teste e o plano de teste a serem utilizados?
+
+a.Especificação
+b.Execução
+c.Preparação
+d.Entrega
+	-> e.Planejamento
+
+
+
+
+
+
+
+Para Sommerville (2018), o objetivo da medição é usá-la para revisões e fazer julgamento sobre a qualidade de software, também pode ser usada para realçar áreas do software que podem ser melhoradas a longo prazo. Para Pressman e Maxim (2016, p. 676) as métricas de teste podem ser classificadas em duas grandes categorias:
+
+a.As métricas de teste não são relevantes para o processo de desenvolvimento de software.
+
+b.As métricas de teste podem ser classificadas em métricas que tentam prever o número provável de testes necessários em vários níveis de teste e métricas que focalizam a abrangência do teste para determinado componente.
+
+c.As métricas de teste podem ser classificadas em métricas que medem a segurança do sistema e métricas que medem a velocidade de execução dos testes.
+
+d.As métricas de teste podem ser classificadas em métricas que medem a eficiência dos testes e métricas que medem a satisfação do usuário.
+
+e.As métricas de teste podem ser classificadas em métricas que medem o desempenho do sistema e métricas que medem a complexidade do software.
+
+
+
+
+
+
+
+
+
+Qual a importância do Ciclo de Vida de Teste de Software?
+	R: a.Ajuda a garantir que o software é confiável e contribui para a fidelização do cliente
+
+
+
+
+
+
+O ambiente de teste deve ser pensado como uma estratégia de teste e adicionado ao planejamento dos testes antes dos mesmos iniciarem. O ideal é que ele seja similar ao ambiente do usuário, onde ele utilizará o software. Neste momento, o responsável pela organização do ambiente de testes, normalmente o arquiteto de testes, deve pensar em todos os elementos possíveis para a execução, como: massa ou base de testes, modelos de dados que serão usados, configuração dos softwares usados (devem ser iguais aos do usuário), tipo de testes que serão executados, técnicas de teste apropriadas.
+
+As configurações usadas no ambiente de testes devem fornecer uma ideia de como serão conduzidos e como as atividades serão executadas. Por isso, é importante fornecer um ambiente conhecido e controlado para a execução, a fim de assegurar que os resultados sejam precisos e válidos na busca de erros, defeitos e falhas (LAMOUNIER, 2021).
+
+	R: O ambiente de teste ideal é similar ao ambiente do usuário que utilizará o software
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

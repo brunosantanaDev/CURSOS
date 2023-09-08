@@ -1,0 +1,468 @@
+
+UNIDADE I Introdução aos Métodos Ágeis
+	PRINCÍPIOS ÁGEIS: O MANIFESTO ÁGIL E O QUE É SER ÁGIL HOJE
+		Manifesto Ágil
+	
+	1.3 Como o Manifesto Ágil contribui para as empresas de desenvolvimento 12
+	SOFTWARE ÁGIL: VALORES E PRINCÍPIOS FUNDAMENTAIS 13
+		Existem diversos aspectos que diferenciam o desenvolvimento de software tradicional
+		do ágil, sendo os principais: o ciclo de vida do projeto, a entrega, o planejamento e a execução do projeto. E
+		
+	DESAFIOS E EVOLUÇÃO DA ENGENHARIA DE SOFTWARE 19
+		3.1 Engenharia de Software
+		3.2 Processo de Software 
+		3.2.1 Requisitos 
+		3.2.2 Projeto e Implementação 
+		3.2.3 Validação 20
+
+	Modelos de ciclo de vida de Software 21
+	3.3.3 Modelo Iterativo e Incremental 23
+		
+---------------------------------------------------------------------------------			
+		
+UNIDADE II Principais Práticas dos Métodos Ágeis	
+	1. DESENVOLVIMENTO DIRIGIDO POR TESTES 31
+	1.2 Como implementar no desenvolvimento o processo de TDD 33
+		JUnit,o qual é um framework utilizado para escrever testes repetíveis e automatizados
+	1.3 Vantagens do Desenvolvimento Dirigido a Testes 34		
+	
+	2. PROGRAMAÇÃO PAREADA 35	
+	
+	3. REFATORAÇÃO 36
+	
+	4. INTEGRAÇÃO CONTÍNUA 40
+		4.1 Princípios a serem seguidos 40
+		4.2 Algumas ferramentas para Integração contínua 41
+		4.3 Vantagens da Integração contínua 41
+	
+	5. CICLO DE VIDA DO DESENVOLVIMENTO ÁGIL DE SOFTWARE 43
+	
+	6. FERRAMENTAS DE APOIO: USER STORY, PLANNING POKER E BURNDOWN 45
+		6.2 Características da User Story 45
+		6.3 Vantagens da User Story 46
+		6.4 Modelo genérico de User Stories
+		6.5 Fase dos usuários
+		6.6 Fase das histórias 47
+		6.7 Fase das estimativas
+		6.8 Fase do Plano de Lançamento
+		6.9 Planning Poker
+		6.10 Benefícios do Planning Poker 49
+		6.11 Como estimar 50
+		6.12 Como Jogar o Planning Poker
+		
+	7. O PROCESSO VISIONÁRIO 53	
+	
+---------------------------------------------------------------------------------		
+	
+UNIDADE III Exemplos de Métodos Ágei 58
+	1. PROGRAMAÇÃO EXTREMA 
+		1.1 Conceitos da programação extrema (XP) 60
+		1.2 Ciclo de vida de um projeto XP 61 
+		1.3 Práticas da Programação Extrema - XP
+		1.4 Doze (12) práticas da Programação Extrema
+		1.5 Valores e Princípios de XP 
+		1.6 Quando não se deve usar XP 
+		
+	2. KANBAN
+		2.1 Os princípios e as práticas do sistema Kanban
+		2.2 Princípios da gestão e mudanças
+		2.3 Princípios da Entrega de Serv
+		2.4 Práticas Gerais do Kanban
+		2.5 Práticas Específicas
+		2.6 Principais Métricas do Kanban 74
+		2.7 Cadências do Kanban
+		2.8 O modelo Kanban aplicado no desenvolvimento de software
+		
+---------------------------------------------------------------------------------	
+		
+UNIDADE IV Aplicando o Scrum no Desenvolvimento de Sistema Utilizando Métodos e Práticas Ágeis	
+		
+	1. O FRAMEWORK SC
+		1.1 Pilares do Scrum 84
+		1.2 O Time Scrum 85
+		1.2.1 O Product Owner 86
+		1.2.2 O Time de Desenvolvimento
+		
+	1.2.3 O Scrum Master
+		
+	1.3 Eventos Scrum 89	
+	
+	1.4 Reunião de Planejamento da Sprint 
+	 
+	2. OS MITOS DAS METODOLOGIAS ÁGEIS 97
+	
+	3. FERRAMENTAS QUE AUXILIAM AS METODOLOGIAS ÁGEIS
+	
+	
+	
+	
+	
+	
+	ATIVIDADE DE ESTUDO 1
+	
+1 - ___________ de software é um conjunto de tarefas que são capazes de proporcionar resultados que irão conduzir à produção de um produto de software.
+
+Assinale a alternativa que preenche corretamentE A LACUNA:
+
+a. Processo de implementação
+b. Engenharia de software
+	X -> c. Processo de desenvolvimento 
+d. Validação
+e. Requistos
+
+#############################
+
+
+2 As metodologias ágeis são muito bem aceitas pelas equipes e desenvolvimento de sistemas e vem conquistando gradativamente o seu espaço no mercado, pois tem como princípios básicos a:
+
+
+	-> a.Simplicidade, e facilidade a adaptação a mudanças
+b.Praticidade e a facilidade a adaptação a mudanças
+c.Diversidade e a facilidade a adaptação a mudanças
+d.Flexibilidade e a facilidade a adaptação a mudanças
+e.Coerência e a facilidade a adaptação a mudanças
+
+#############################
+
+
+3 - A fase _________ consiste na  tarefa de levantamento de requisitos, consiste em identificar e extrair todas as funções que o usuário necessita executar dentro do software a ser desenvolvido, bem como informações pertinentes a restrições e acesso, premissas e entre outras.
+
+Assinale a alternativa que preenche corretamente a lacuna:
+
+a.Processo de implementação
+b.Validação
+c.Engenharia de software
+	-> d.Requisitos
+e.Processo de software
+
+
+#############################
+
+
+Utilizamos o gráfico Burndown com o intuito de acompanhar a evolução de uma Sprint, além de servir como um indicador, afim de prever quanto tempo ainda resta para que o trabalho seja concluído, isso é possível através da linha atual (representada na imagem pela cor vermelha), com ela verificamos se o processo está prestes a terminar, dentro da meta estimada pela equipe. (RUBIN, 2013)
+
+
+#############################
+
+“…é indispensável também conhecer a tecnologia envolvida, as tendências de mercado, as políticas de exportações, as barreiras de entrada e a lucratividade.” Essa frase é baseada em qual autor:
+
+c.(FILION, 1991)
+
+#############################
+
+
+O processo de desenvolvimento é um conjunto de tarefas que são capazes de proporcionar resultados que irão conduzir à produção de um produto de software. O processo de software fica compreendido como sendo as etapas a serem estruturadas para construir, implantar e manter o software. Algumas atividades são frequentes dentro do processo de desenvolvimento de software, como os:
+
+-> Requisitos, Projeto e Implementação, Validação e a Evolução
+
+
+#############################
+
+
+O desenvolvimento incremental baseia-se no contexto de
+
+-> Desenvolver uma implementação inicial, colocá-la à disposição dos usuários para que possam efetuar as observações necessárias e dar continuidade através de diversas versões até que, por fim, um software apropriado seja desenvolvido.
+
+
+
+#############################
+
+
+
+4, 2, 5, 1, 3
+
+
+(1) Extrair método (Extract Method):
+
+(2) Isolar mudança (Isolate Change)
+
+(3) Método em uma linha (Inline Method):
+
+(4) Reconciliar diferenças (Reconcile Differences)
+
+(5) Migrar dados (Migrate Data)
+
+
+
+(  4  ) É uma maneira de unificar dois trechos simples de um código, aproximando-os de modo que apenas quando eles forem idênticos ocorra a unificação. Esse processo pode ser estressante, já que se feito de forma mecanicamente correta, existe pouquíssima possibilidade de alterar o comportamento do sistema.
+
+(  2  ) Kent Beck (2010) relata que para modificar uma parte específica de um método ou de um objeto multi-parte, é necessário isolar a parte que será modificada. Como em um procedimento cirúrgico que a equipe medica isola toda e qualquer área, exceto aquela que será operada, isso reduz as variáveis.
+
+(  5  ) Para trocar uma apresentação é necessário trocar os dados temporariamente. Kent Beck (2010) relata que você precisa mudar a representação internamente e só então muda a interface visível externamente, essa versão é conhecida como interna-para-externa.
+
+(  1  ) Kent Beck (2010) deixa evidente que para tornar um método longo e complexo em um método fácil de ler é necessário tornar uma pequena parte dele em um método separado e chama-lo de um novo método. Extrair método é uma complexa refatoração atômica, mas felizmente é pouco provável que esse processo seja feito manualmente, já que é comum sua implementação na refatoração automática.
+
+(  3  ) Utilizado para simplificar fluxos e dados que podem se tornar complexos, retorcidos ou espalhados, é necessário substituir uma invocação de método pelo próprio método.
+
+
+
+
+
+#############################
+
+
+
+Sobre a integração contínua:
+
+I. A integração contínua tem como principal característica a integração constante de todas as modificações realizadas no software pela equipe de desenvolvedores.
+
+II. O processo de integração não necessita de uma build automatizada, a fim de realizar todos os testes necessários para assim identificar os erros de integração com mais agilidade.
+
+III. Podemos dizer que ela está diretamente relacionada com a qualidade do software
+
+IV. Leva-se em conta que a build precisa ser aprovada em todos os testes especificados pela equipe
+
+Assinale a alternativa incorreta:
+
+a.alternativa incorreta IV
+b.alternativa incorreta III
+c.Todas as alternativas estão corretas
+	-> d.alternativa incorreta II
+e.alternativa incorreta I
+
+
+
+
+
+#############################
+
+
+A programação pareada consiste em:
+
+a.Duas pessoas trabalharem lado a lado em projetos diferentes.
+	-> b.Duas pessoas trabalharem lado a lado no mesmo projeto, no mesmo algoritmo.
+c.Três pessoas trabalharem lado a lado no mesmo projeto, no mesmo algoritmo.
+d.Duas pessoas trabalharem lado a lado em projetos diferentes, porém, no mesmo algoritmo.
+e.Três pessoas trabalharem lado a lado no mesmo projeto, porém, no mesmo algoritmo.
+
+
+
+
+
+
+
+
+
+
+
+
+#############################
+	ATIVIDADE DE ESTUDO 2
+#############################
+
+
+
+
+Existem quatro eventos formais no Scrum dentro de uma Sprint, sendo eles:
+
+
+Reunião de planejamento da Sprint, 
+Reunião diária, 
+Reunião de revisão da Sprint
+Retrospectiva da Sprint
+
+
+#############################
+
+
+
+Assina-le a alternativa que retrata qual a principal finalidade da Reunião Diária:
+
+a.Identificar quais foram as falhas cometidas no dia anterior e planejar as tarefas da semana seguinte.
+
+b.Identificar quais foram os pontos positivos no dia anterior e planejar as tarefas da semana seguinte.
+
+c.Identificar o que deve ser feito no dia seguinte e o que será necessário para finalizar a sprint.
+
+	-> d.Identificar o que foi feito desde a última reunião e o que será necessário fazer até a próxima reunião.
+
+e.Identificar o que foi feito na semana anterior e o que será preciso fazer para a próxima reunião
+
+
+
+#############################
+
+
+
+O Scrum é um framework que permite solucionar problemas complexos desde o início de 1990, com ele podemos implementar diversas técnicas e processos, permitindo entregar um produto final com qualidade. De acordo com Schwaber e Sutherland (2013), podemos caracterizar o Scrum como:
+
+a.Leve, difícil de compreender e muito difícil de dominar
+
+b.Pesado, difícil de compreender e muito fácil de dominar
+
+c.Leve, fácil de compreender e muito fácil de dominar
+
+d.Pesado, fácil de compreender e muito difícil de dominar
+
+	-> e.Leve, fácil de compreender e muito difícil de dominar
+
+
+
+
+#############################
+
+
+
+Para que os integrantes da equipe de desenvolvimento falem a mesma linguagem, todos devem compreender os requisitos do sistema. Como forma de facilitar essa compreensão pode ser criado histórias para o software, auxiliando o entendimento de como esse sistema será utilizado pelo usuário final. (BECK, 2004)”
+
+Assinale a alternativa que corresponde à essa prática da programação extrema:
+
+a.O jogo do planejamento
+
+
+b.Integração contínua
+c.Testes
+d.Entregas frequentes
+	-> e.Metáfora
+
+
+
+#############################
+
+
+
+Sobre metodologias ágeis, assina-le a alternativa correta:
+
+I. Funcionam somente para times e projetos pequenos.
+
+II. Funcionam exclusivamente para times de tecnologia.
+
+	-> III. Possui muita flexibilidade em sua utilização.
+
+
+
+#############################
+
+
+
+Assina-le a alternativa que define “Pronto” dentro de uma Sprint:
+
+
+a.O Projeto já foi concluído e pode ser entregue ao cliente
+	-> b.O trabalho realizado dentro de uma Sprint foi finalizado
+c.A reunião diária já foi finalizada
+d.A reunião de revisão já foi finalizada
+e.Já foi finalizada a retrospectiva da Sprint
+
+
+#############################
+
+
+
+Quantas etapas são necessárias para montar um quadro simples e funcional dentro do Kanban?
+
+-> 4 
+Etapa 01: Análise;
+Etapa 02: Desenvolvimento;
+Etapa 03: Aceitação;
+Etapa 04: Implantação
+
+
+
+#############################
+
+
+
+Em geral, o método Kanban possibilita a visualização de todo o trabalho em fase de desenvolvimento, auxiliando a operar cada funcionalidade com mais eficiência, com a utilização dele em times, conseguimos aliviar a sobrecarga e ter total controle sobre o trabalho realizado.
+
+Para que possamos implantar o modelo Kanban devemos respeitar quantos estágios?
+
+-> 3
+● O estágio de visualizar os processos;
+● O estágio de limitar o trabalho em processo (WIP: work in progress);
+● O estágio de gerenciamento do lead-time (o tempo que uma atividade vai levar
+para que passe por todos os processos até a sua entrega).
+
+
+
+#############################
+
+
+
+O Kanban faz uso de uma abordagem evolucionária de transformação, para a sua implantação podemos nos basear na forma de trabalho já existente, analisando como podemos melhorá-lo. Com a implantação do quadro Kanban, conseguimos gerar mudanças evolutivas, pois durante o uso do quadro observamos que os atos de lideranças dos membros da equipe auxiliam a forma de trabalhar, tornando-a cada vez melhor. Sendo assim, de acordo com Benson (2011), para implantar o método Kanban em uma empresa devemos levar em conta três princípios de gestão.
+
+Leia atentamente as afirmações sobre os três princípios da gestão e assinale a alternativa correta:
+
+I. Inicie a partir do que você já faz hoje;
+
+II. Utilizar mudanças evolucionárias para melhorar o que já existe.
+
+III. Encorajar atos de liderança em poucos níveis.
+
+
+a.As afirmações I, II e III são verdadeiras
+b.Somente a afirmação III é verdadeira
+	-> c.As afirmações I e II são verdadeiras
+d.Somente a afirmação I é verdadeira
+e.Somente a afirmação II é verdade
+
+
+
+#############################
+
+
+
+Nos dias atuais, para se entregar um projeto, é necessário ficar atento a ____________ de riscos que podem vir a ocorrer, dentre esses riscos podemos citar o atraso na entrega, muitas vezes entregar um sistema que não atende a solicitação do cliente, (muitas vezes devido a negócios mal compreendidos e entre outros diversos problemas que podemos no deparar.”
+
+
+a.Funcionalidade
+	-> b.Quantidade
+c.Abordagem
+d.Gerenciamento
+e.Qualidade
+
+
+#############################
+
+
+
+
+
+
+
+
+#############################
+
+
+
+
+
+
+
+#############################
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
